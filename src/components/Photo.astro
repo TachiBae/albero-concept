@@ -1,0 +1,36 @@
+---
+// <img> for files in public/images. If the file isn't on disk (37 referenced
+// images are currently missing), render the TODO placeholder in its place
+// rather than a broken image.
+import fs from 'node:fs';
+import path from 'node:path';
+import Todo from './Todo.astro';
+
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+  fetchpriority?: 'high' | 'low' | 'auto';
+  sizes?: string;
+}
+
+const { src, alt, class: className, loading = 'lazy', fetchpriority, sizes } = Astro.props;
+
+let exists = false;
+try {
+  exists = fs.statSync(path.join(process.cwd(), 'public', src)).isFile();
+} catch {
+  exists = false;
+}
+---
+
+{
+  exists ? (
+    <img src={src} alt={alt} class={className} loading={loading} decoding="async" fetchpriority={fetchpriority} sizes={sizes} />
+  ) : (
+    <div class:list={[className, 'grid place-items-center bg-paper-deep p-4 text-center']} role="img" aria-label={alt}>
+      <Todo />
+    </div>
+  )
+}

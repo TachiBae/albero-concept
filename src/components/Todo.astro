@@ -1,0 +1,9 @@
+---
+// Rendered wherever albero.ph has no content for a slot (CLAUDE.md content rules).
+interface Props {
+  class?: string;
+}
+const { class: className } = Astro.props;
+---
+
+<span class:list={['todo', className]}>[TODO: missing from source]</span>

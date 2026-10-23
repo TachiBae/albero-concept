@@ -1,0 +1,74 @@
+---
+import Photo from './Photo.astro';
+import Todo from './Todo.astro';
+import { bookVisit, contact, heading, pages, stripColon } from './lib/content';
+
+const title = stripColon(heading(pages.visit, /^BOOK your visit/)!);
+const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contact.address)}`;
+---
+
+<section id="visit" aria-labelledby="visit-title" class="bg-paper" data-visit>
+  <div class="grid md:grid-cols-2">
+    <Photo
+      src="/images/message-1/CALBEROPIFS25INSILENCE-4041-EDIT.jpg"
+      alt="Two people on a curved white sofa in a double-height living room, with a staircase behind"
+      class="aspect-[4/3] h-full w-full object-cover md:aspect-auto md:min-h-[640px]"
+      sizes="(min-width: 768px) 50vw, 100vw"
+    />
+
+    <div class="flex items-center px-5 py-16 md:px-12 md:py-24 lg:px-20">
+      <div class="w-full max-w-[26rem]">
+        <h2 id="visit-title" class="display-lg">{title}</h2>
+        <div class="mt-8 h-px w-full bg-line"></div>
+
+        <dl class="mt-8 space-y-6 text-[15px] leading-relaxed">
+          <div class="flex gap-4">
+            <dt class="mt-1 shrink-0">
+              <span class="sr-only">Address</span>
+              <svg width="16" height="20" viewBox="0 0 16 20" fill="none" aria-hidden="true">
+                <path d="M8 19s6.5-6.2 6.5-11A6.5 6.5 0 0 0 1.5 8c0 4.8 6.5 11 6.5 11Z" stroke="currentColor" stroke-width="1.25"></path>
+                <circle cx="8" cy="8" r="2.25" stroke="currentColor" stroke-width="1.25"></circle>
+              </svg>
+            </dt>
+            <dd>
+              <span class="caps block text-[11px]">{contact.hqLabel}</span>
+              <a href={mapsHref} class="mt-1 block text-ink-soft underline decoration-line underline-offset-4 hover:decoration-current">
+                {contact.address}
+              </a>
+            </dd>
+          </div>
+
+          <div class="flex gap-4">
+            <dt class="mt-1 shrink-0">
+              <span class="sr-only">{contact.hoursLabel}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.25"></circle>
+                <path d="M8 4v4l2.5 1.5" stroke="currentColor" stroke-width="1.25"></path>
+              </svg>
+            </dt>
+            <dd>
+              <span class="caps block text-[11px]">{contact.hoursLabel}</span>
+              <Todo class="mt-2" />
+            </dd>
+          </div>
+
+          <div class="flex gap-4">
+            <dt class="mt-1 shrink-0">
+              <span class="sr-only">Contact</span>
+              <svg width="16" height="12" viewBox="0 0 16 12" fill="none" aria-hidden="true">
+                <rect x="0.6" y="0.6" width="14.8" height="10.8" stroke="currentColor" stroke-width="1.25"></rect>
+                <path d="m1 1 7 5.5L15 1" stroke="currentColor" stroke-width="1.25"></path>
+              </svg>
+            </dt>
+            <dd class="text-ink-soft">
+              <a href={`mailto:${contact.email}`} class="block underline decoration-line underline-offset-4 hover:decoration-current">{contact.email}</a>
+              <a href={`tel:${contact.phone.replace(/\s/g, '')}`} class="mt-1 block underline decoration-line underline-offset-4 hover:decoration-current">{contact.phone}</a>
+            </dd>
+          </div>
+        </dl>
+
+        <a href={bookVisit.href} class="btn-dark mt-10 w-full sm:w-auto">{bookVisit.text}</a>
+      </div>
+    </div>
+  </div>
+</section>

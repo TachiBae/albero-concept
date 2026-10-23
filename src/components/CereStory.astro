@@ -1,0 +1,48 @@
+---
+// Sits in frame-1's "Our Story" slot. Per SHAPE.md section 2 it carries the
+// Cere story that albero.ph's own homepage runs, word for word.
+import Photo from './Photo.astro';
+import { button, heading, pages, quote } from './lib/content';
+
+const title = heading(pages.cere, /^Cere Collection$/)!;
+const paragraphs = [
+  quote(pages.home, 'Inspired by the Queen of the Night'),
+  quote(pages.home, 'As the flower completes the plant'),
+  quote(pages.home, 'The CERE is a collection'),
+];
+const discoverCere = button(pages.home, 'DISCOVER CERE');
+
+// home.json gallery, in source order. None has a caption on albero.ph.
+const images = {
+  room: { src: '/images/home/ABR_0587.jpg', alt: 'Living room with a grey lounge chair, a copper-toned pedestal side table and a tan sofa' },
+  chest: { src: '/images/home/Ehwa-Chest-of-Drawers-2.jpg', alt: 'Ehwa Chest of Drawers' },
+  detail: { src: '/images/home/Copy-of-ABR_0449.jpg', alt: 'Close view of a burl wood cabinet door with a dark frame and metal knobs' },
+  cabinet: { src: '/images/home/ABR_0447.jpg', alt: 'Burl wood display cabinet with arched glass doors and a black lacquer frame' },
+};
+---
+
+<section aria-labelledby="cere-title" class="py-24 md:py-40">
+  <div class="container-page grid gap-14 md:grid-cols-12 md:gap-8">
+    <div class="md:col-span-5 md:self-center lg:col-span-4">
+      <h2 id="cere-title" class="display-lg">{title}</h2>
+      <div class="mt-8 max-w-[42ch] space-y-5 text-[15px] leading-relaxed text-ink-soft">
+        {paragraphs.map((p) => <p>{p}</p>)}
+      </div>
+      <a href={discoverCere.href} class="link-arrow mt-8">
+        {discoverCere.text}
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-2 gap-3 md:col-span-7 md:col-start-6 md:gap-5 lg:col-span-7 lg:col-start-6">
+      <div class="space-y-3 md:space-y-5">
+        <Photo {...images.room} class="aspect-[3/4] w-full object-cover" sizes="(min-width: 768px) 28vw, 50vw" />
+        <Photo {...images.chest} class="aspect-[4/3] w-full object-cover" sizes="(min-width: 768px) 28vw, 50vw" />
+      </div>
+      <div class="space-y-3 md:mt-16 md:space-y-5">
+        <Photo {...images.detail} class="aspect-[4/3] w-full object-cover" sizes="(min-width: 768px) 28vw, 50vw" />
+        <Photo {...images.cabinet} class="aspect-[3/4] w-full object-cover" sizes="(min-width: 768px) 28vw, 50vw" />
+      </div>
+    </div>
+  </div>
+</section>
