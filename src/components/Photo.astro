@@ -1,9 +1,9 @@
 ---
-// <img> for files in public/images. If the file isn't on disk (37 referenced
+// <img> for files in public/images, resized to WebP with a srcset so cards
+// don't download 2500px originals. If the file isn't on disk (37 referenced
 // images are currently missing), render the TODO placeholder in its place
 // rather than a broken image.
-import fs from 'node:fs';
-import path from 'node:path';
+import { getImage } from 'astro:assets';
 import Todo from './Todo.astro';
 
 interface Props {
@@ -15,19 +15,29 @@ interface Props {
   sizes?: string;
 }
 
-const { src, alt, class: className, loading = 'lazy', fetchpriority, sizes } = Astro.props;
+const { src, alt, class: className, loading = 'lazy', fetchpriority, sizes = '100vw' } = Astro.props;
 
-let exists = false;
-try {
-  exists = fs.statSync(path.join(process.cwd(), 'public', src)).isFile();
-} catch {
-  exists = false;
-}
+// shortcut: imports straight from public/ so the files can stay where the crawl put them; move them to src/assets
+// once the image set is final (the build then stops copying unused originals).
+const files = import.meta.glob<ImageMetadata>('/public/images/**/*.{jpg,jpeg,png}', { import: 'default' });
+const load = files[`/public${src}`];
+const image = load && (await getImage({ src: await load(), width: 1200, widths: [480, 800, 1200, 1600, 2000], format: 'webp' }));
 ---
 
 {
-  exists ? (
-    <img src={src} alt={alt} class={className} loading={loading} decoding="async" fetchpriority={fetchpriority} sizes={sizes} />
+  image ? (
+    <img
+      src={image.src}
+      srcset={image.srcSet.attribute}
+      sizes={sizes}
+      width={image.attributes.width}
+      height={image.attributes.height}
+      alt={alt}
+      class={className}
+      loading={loading}
+      decoding="async"
+      fetchpriority={fetchpriority}
+    />
   ) : (
     <div class:list={[className, 'grid place-items-center bg-paper-deep p-4 text-center']} role="img" aria-label={alt}>
       <Todo />

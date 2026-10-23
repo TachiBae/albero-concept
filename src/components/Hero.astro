@@ -22,21 +22,24 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
       fetchpriority="high"
     />
 
-    <!-- Paper scrim: the real photo has less bare wall than frame-1, so the subline would sit on the cabinet and sofa. -->
-    <div
-      class="absolute inset-x-0 top-0 bg-linear-to-b from-paper/90 via-paper/85 via-70% to-transparent pt-[7vh] pb-24 md:pt-[9vh] md:pb-40"
-      data-hero-headline
-    >
+    <!-- Scrims sit behind the text only: full-width on mobile, where the text spans the screen; from md they fade out
+         to the right and at the inner edge so the room stays clear. Each lives inside its overlay so it will fade with it. -->
+    <div class="absolute inset-x-0 top-0 isolate pt-[7vh] pb-24 md:pt-[9vh] md:pb-40" data-hero-headline>
+      <div
+        class="absolute inset-0 -z-10 bg-linear-to-b from-paper/90 via-paper/85 via-70% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_bottom,black_calc(100%_-_10rem),transparent)]"
+        aria-hidden="true"
+      ></div>
       <div class="container-page">
         <h1 class="display-xl max-w-[11ch]">{headline}</h1>
         {subline && <p class="mt-5 max-w-[34ch] text-[16px] leading-relaxed text-espresso/85">{subline}</p>}
       </div>
     </div>
 
-    <div
-      class="absolute inset-x-0 bottom-0 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent pt-40 pb-[7vh]"
-      data-hero-cta
-    >
+    <div class="absolute inset-x-0 bottom-0 isolate pt-40 pb-[7vh] md:pt-8" data-hero-cta>
+      <div
+        class="absolute inset-0 -z-10 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_top,black_calc(100%_-_2rem),transparent)]"
+        aria-hidden="true"
+      ></div>
       <div class="container-page text-paper">
         <!-- Cere wordmark (transparent PNG with lots of padding), cropped to the script and inverted to light. -->
         <div class="relative w-[13rem] overflow-hidden md:w-[16rem]" style="aspect-ratio: 660 / 125">
