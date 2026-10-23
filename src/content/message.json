@@ -1,0 +1,70 @@
+{
+  "slug": "message",
+  "source_url": "https://www.albero.ph/message",
+  "final_url": "https://www.albero.ph/message",
+  "redirected": false,
+  "title": "Inquire — ALBERO",
+  "og_title": "Inquire — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Let’s create your space together."
+            },
+            {
+              "tag": "p",
+              "text": "ALBERO HQ:"
+            },
+            {
+              "tag": "p",
+              "text": "2-1 Magalang Avenue, Barangay Pandan, Angeles City, Pampanga"
+            },
+            {
+              "tag": "p",
+              "text": "contact@albero.ph"
+            },
+            {
+              "tag": "p",
+              "text": "+639173028406"
+            },
+            {
+              "tag": "p",
+              "text": "Facebook: fb.com/alberophilippines",
+              "links": [
+                {
+                  "text": "fb.com/alberophilippines",
+                  "href": "https://www.facebook.com/alberophilippines/"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "text": "Instagram: @alberoph",
+              "links": [
+                {
+                  "text": "@alberoph",
+                  "href": "https://www.instagram.com/alberoph/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "form",
+          "title": null,
+          "fields": null,
+          "note": "Form rendered client-side; static mockup only."
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": []
+}

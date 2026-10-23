@@ -1,0 +1,178 @@
+{
+  "slug": "custom-furniture",
+  "source_url": "https://www.albero.ph/custom-furniture",
+  "final_url": "https://www.albero.ph/custom-furniture",
+  "redirected": false,
+  "title": "Custom — ALBERO",
+  "og_title": "Custom — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "CUSTOM FURNITURE"
+            },
+            {
+              "tag": "p",
+              "text": "All Albero pieces may be customized according to your space and vision – from wood finish, fabric, to even scale. Feel free to browse through our catalogs upon request to see our current designs."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "REQUEST FOR CATALOGS",
+          "href": ""
+        },
+        {
+          "type": "button",
+          "text": "Customize Your Own",
+          "href": "https://albero.ph/message"
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/Screenshot-2025-03-12-at-4.19.53-PM.png",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/AMUST-24-8491-2.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/AMUST_24-8736.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/ALBERO_PIFS2020-7442.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/ALBERO_PIFS2020-7065.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/custom-furniture/ALBERO_PIFS2020-7465.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "CREATED FOR YOUR LIFE/STYLE"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "We see each space and furniture that we create as a personal statement that dovetails a shared vision and desired élan."
+            },
+            {
+              "tag": "p",
+              "text": "Customized pieces are an essential design element to any space. Establish a sense of harmony and order with furniture crafted with your needs in mind."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "Screenshot-2025-03-12-at-4.19.53-PM.png",
+      "path": "/images/custom-furniture/Screenshot-2025-03-12-at-4.19.53-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741767648063-KCX77BGZ3AAB02WXH3AA/Screenshot+2025-03-12+at+4.19.53+PM.png",
+      "alt": "Screenshot 2025-03-12 at 4.19.53 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2380,
+      "height": 1584,
+      "bytes": 4448774
+    },
+    {
+      "file": "AMUST-24-8491-2.jpg",
+      "path": "/images/custom-furniture/AMUST-24-8491-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741767601804-LF4BJBQOKXN5211QKY47/AMUST%2724-8491-2.jpg",
+      "alt": "AMUST'24-8491-2.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 901726
+    },
+    {
+      "file": "AMUST_24-8736.jpg",
+      "path": "/images/custom-furniture/AMUST_24-8736.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741767736132-051YPIZPKWBV3110IR1Q/AMUST_24-8736.jpg",
+      "alt": "AMUST_24-8736.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 2000,
+      "bytes": 492040
+    },
+    {
+      "file": "ALBERO_PIFS2020-7442.jpg",
+      "path": "/images/custom-furniture/ALBERO_PIFS2020-7442.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741768019958-M40971CWV85C5QVPHXZQ/ALBERO_PIFS2020-7442.jpg",
+      "alt": "ALBERO_PIFS2020-7442.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 414782
+    },
+    {
+      "file": "ALBERO_PIFS2020-7065.jpg",
+      "path": "/images/custom-furniture/ALBERO_PIFS2020-7065.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741768029938-CGTGT1X2KLJLVN6P5A2N/ALBERO_PIFS2020-7065.jpg",
+      "alt": "ALBERO_PIFS2020-7065.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 281556
+    },
+    {
+      "file": "ALBERO_PIFS2020-7465.jpg",
+      "path": "/images/custom-furniture/ALBERO_PIFS2020-7465.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741768046405-UZG2629CWADMA4CRFFRQ/ALBERO_PIFS2020-7465.jpg",
+      "alt": "ALBERO_PIFS2020-7465.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3125,
+      "bytes": 201030
+    }
+  ]
+}

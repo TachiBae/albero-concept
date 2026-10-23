@@ -1,0 +1,244 @@
+{
+  "slug": "hygge-collection",
+  "source_url": "https://www.albero.ph/hygge-collection",
+  "final_url": "https://www.albero.ph/hygge-collection",
+  "redirected": false,
+  "title": "Hygge Collection — ALBERO",
+  "og_title": "Hygge Collection — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h3",
+              "text": "Hygge Collection"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "url": "//www.youtube.com/embed/4KCgAShBp-8?wmode=opaque&enablejsapi=1",
+          "title": null,
+          "provider": "YouTube",
+          "description": null,
+          "thumbnail": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "The Hygge Collection is a study of the balance of furniture and the elements that surround it. We at Albero believe that the warmth of humans, experiences, and memories are what bring life into furniture. The collection serves as a reminder to embrace aspects that make the experience of furniture whole. Presenting, the Hygge Collection."
+            },
+            {
+              "tag": "p",
+              "text": "The collection is a homage and reimagination of nature in its most organic form. Inspired by drawnness to nature, Hygge may be characterized as refined play of movement, light, color, and shape. The overall effect is peace and tranquility."
+            },
+            {
+              "tag": "p",
+              "text": "Hygge [ˈhykə] • The inexplicable feeling of contentment derived from a warm and cozy mood and atmosphere."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6513-2.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6444.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6413.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6625.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6588.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6700.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6606.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6645.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6468.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/hygge-collection/ALBERO_PIFS2020-6675.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "See Latest Collections",
+          "href": "/news"
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "ALBERO_PIFS2020-6513-2.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6513-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434695179-3P12JBUIULREG9UM7L80/ALBERO_PIFS2020-6513-2.jpg",
+      "alt": "ALBERO_PIFS2020-6513-2.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 481076
+    },
+    {
+      "file": "ALBERO_PIFS2020-6444.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6444.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434575497-BVYB6CI83PG8IWFHJAMM/ALBERO_PIFS2020-6444.jpg",
+      "alt": "ALBERO_PIFS2020-6444.jpg",
+      "original_width": 2500,
+      "original_height": 3058,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3058,
+      "bytes": 320476
+    },
+    {
+      "file": "ALBERO_PIFS2020-6413.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6413.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434592459-D7T6QET7C0T5YCHODNUT/ALBERO_PIFS2020-6413.jpg",
+      "alt": "ALBERO_PIFS2020-6413.jpg",
+      "original_width": 2500,
+      "original_height": 2025,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 2025,
+      "bytes": 298900
+    },
+    {
+      "file": "ALBERO_PIFS2020-6625.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6625.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434738238-XC3D4OVQDH11XJIMX9FU/ALBERO_PIFS2020-6625.jpg",
+      "alt": "ALBERO_PIFS2020-6625.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 636296
+    },
+    {
+      "file": "ALBERO_PIFS2020-6588.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6588.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434722713-AUHFNOO0K4CUOZA6L47N/ALBERO_PIFS2020-6588.jpg",
+      "alt": "ALBERO_PIFS2020-6588.jpg",
+      "original_width": 2478,
+      "original_height": 2478,
+      "context": "section-1 gallery",
+      "width": 2478,
+      "height": 2478,
+      "bytes": 222002
+    },
+    {
+      "file": "ALBERO_PIFS2020-6700.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6700.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434768678-Q3DPIAWXUNYAY8O85VUS/ALBERO_PIFS2020-6700.jpg",
+      "alt": "ALBERO_PIFS2020-6700.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 538258
+    },
+    {
+      "file": "ALBERO_PIFS2020-6606.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6606.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434797326-0EBLG9ZNOD4O14HDENCC/ALBERO_PIFS2020-6606.jpg",
+      "alt": "ALBERO_PIFS2020-6606.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 1356886
+    },
+    {
+      "file": "ALBERO_PIFS2020-6645.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6645.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434755063-OE8TJ0H6VYHR0HRZ39VD/ALBERO_PIFS2020-6645.jpg",
+      "alt": "ALBERO_PIFS2020-6645.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 818644
+    },
+    {
+      "file": "ALBERO_PIFS2020-6468.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6468.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434710195-WO0HUZ7RFGIN3F7VYE3I/ALBERO_PIFS2020-6468.jpg",
+      "alt": "ALBERO_PIFS2020-6468.jpg",
+      "original_width": 2331,
+      "original_height": 3500,
+      "context": "section-1 gallery",
+      "width": 2331,
+      "height": 3500,
+      "bytes": 598504
+    },
+    {
+      "file": "ALBERO_PIFS2020-6675.jpg",
+      "path": "/images/hygge-collection/ALBERO_PIFS2020-6675.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1584434782737-H7R3ISF3RAKGGAS71ILA/ALBERO_PIFS2020-6675.jpg",
+      "alt": "ALBERO_PIFS2020-6675.jpg",
+      "original_width": 2358,
+      "original_height": 2358,
+      "context": "section-1 gallery",
+      "width": 2358,
+      "height": 2358,
+      "bytes": 296626
+    }
+  ]
+}

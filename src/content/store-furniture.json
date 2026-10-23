@@ -1,0 +1,122 @@
+{
+  "slug": "store-furniture",
+  "source_url": "https://www.albero.ph/store-furniture",
+  "final_url": "https://www.albero.ph/store-furniture",
+  "redirected": false,
+  "title": "Furniture — ALBERO",
+  "og_title": "Furniture — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": []
+    }
+  ],
+  "products": [
+    {
+      "source": "store",
+      "name": "Hourglass Stool | Lilac",
+      "url": "https://www.albero.ph/store-furniture/hourglass-stool-lilac",
+      "category": "Furniture",
+      "price": "₱14,500.00",
+      "description": [
+        "A reminder of the importance of time and living life in both quality and style. This statement piece is crafted out of European Ash Wood. Now in a stool counterpart, have one or get two and stack them on top of each other.",
+        "Dimensions: 13” DIA x 16” HT",
+        "This unique piece is made to order & directly ships to your home within 3 weeks of order receipt."
+      ],
+      "dimensions": "13” DIA x 16” HT",
+      "materials_as_stated": "European Ash Wood",
+      "variants": null,
+      "images": [
+        "/images/store-furniture/Hourglass-Stool-Lilac-.jpg"
+      ]
+    },
+    {
+      "source": "store",
+      "name": "Hourglass Stool | Lime",
+      "url": "https://www.albero.ph/store-furniture/hourglass-stool-lime",
+      "category": "Furniture",
+      "price": "₱14,500.00",
+      "description": [
+        "A reminder of the importance of time and living life in both quality and style. This statement piece is crafted out of European Ash Wood. Now in a stool counterpart, have one or get two and stack them on top of each other.",
+        "Dimensions: 13” DIA x 16” HT",
+        "This unique piece is made to order & directly ships to your home within 3 weeks of order receipt."
+      ],
+      "dimensions": "13” DIA x 16” HT",
+      "materials_as_stated": "European Ash Wood",
+      "variants": null,
+      "images": [
+        "/images/store-furniture/Hourglass-Stool-Lime-.jpg"
+      ]
+    },
+    {
+      "source": "store",
+      "name": "Hourglass Stool | Noir",
+      "url": "https://www.albero.ph/store-furniture/hourglass-stool-noir",
+      "category": "Furniture",
+      "price": "₱14,500.00",
+      "description": [
+        "A reminder of the importance of time and living life in both quality and style. This statement piece is crafted out of European Ash Wood. Now in a stool counterpart, have one or get two and stack them on top of each other.",
+        "Dimensions: 13” DIA x 16” HT",
+        "This unique piece is made to order & directly ships to your home within 3 weeks of order receipt."
+      ],
+      "dimensions": "13” DIA x 16” HT",
+      "materials_as_stated": "European Ash Wood",
+      "variants": null,
+      "images": [
+        "/images/store-furniture/Hourglass-Stool-Black-.jpg"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "image-asset.jpeg",
+      "path": "/images/store-furniture/image-asset.jpeg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1610250845906-VYE3PXT4SGRNZ1HDDGSV/image-asset.jpeg",
+      "alt": "Hourglass Stool | Lilac",
+      "original_width": 2400,
+      "original_height": 3000,
+      "context": "product list",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 35610
+    },
+    {
+      "file": "Hourglass-Stool-Lilac-.jpg",
+      "path": "/images/store-furniture/Hourglass-Stool-Lilac-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1610250840874-AE61UIQM7Y3A61RO0KYU/Hourglass+Stool+%28Lilac%29+.jpg",
+      "alt": "Hourglass Stool (Lilac) .jpg",
+      "original_width": 2400,
+      "original_height": 3000,
+      "context": "product detail",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 35610
+    },
+    {
+      "file": "Hourglass-Stool-Lime-.jpg",
+      "path": "/images/store-furniture/Hourglass-Stool-Lime-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1610251317979-9POGM8A6X67SA77F2EKO/Hourglass+Stool+%28Lime%29+.jpg",
+      "alt": "Hourglass Stool (Lime) .jpg",
+      "original_width": 2400,
+      "original_height": 3000,
+      "context": "product list",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 34346
+    },
+    {
+      "file": "Hourglass-Stool-Black-.jpg",
+      "path": "/images/store-furniture/Hourglass-Stool-Black-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1610251372302-9D98WVPFJRFB9GLG7A39/Hourglass+Stool+%28Black%29+.jpg",
+      "alt": "Hourglass Stool (Black) .jpg",
+      "original_width": 2400,
+      "original_height": 3000,
+      "context": "product list",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 41834
+    }
+  ]
+}

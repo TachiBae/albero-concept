@@ -1,0 +1,178 @@
+{
+  "slug": "candles",
+  "source_url": "https://www.albero.ph/candles",
+  "final_url": "https://www.albero.ph/candles",
+  "redirected": false,
+  "title": "Store — ALBERO",
+  "og_title": "Store — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": []
+    }
+  ],
+  "products": [
+    {
+      "source": "store",
+      "name": "Echo Candle",
+      "url": "https://www.albero.ph/candles/echo-candle",
+      "category": "Store",
+      "price": "from ₱2,500.00",
+      "description": [
+        "SANDALWOOD | BERGAMOT & OUD | LEATHER",
+        "A scent with resonant notes that linger in the air like words that refuse to be forgotten. With each breath, Echo reminds you that every conversation leaves an imprint, a memory that resonates long after the last word is spoken.",
+        "A special collaboration with SAAN SAAN"
+      ],
+      "dimensions": null,
+      "materials_as_stated": null,
+      "variants": [
+        {
+          "option": "Select Candle",
+          "values": [
+            "Candle Only",
+            "Candle with Cliff Tray"
+          ]
+        }
+      ],
+      "images": [
+        "/images/candles/CALBEROPIFS25INSILENCE-4542-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-3807-1-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4549-1-EDIT.jpg"
+      ]
+    },
+    {
+      "source": "store",
+      "name": "Hush Candle",
+      "url": "https://www.albero.ph/candles/hush-candle",
+      "category": "Store",
+      "price": "from ₱2,500.00",
+      "description": [
+        "TALCUM | PINK PEPPER | LEATHER",
+        "In the stillness that follows a meaningful conversation, there’s a profound comfort in the unspoken. Hush captures the serenity of being truly at ease, where words are no longer needed, and the heart speaks in the language of calm and connection.",
+        "A special collaboration with SAAN SAAN"
+      ],
+      "dimensions": null,
+      "materials_as_stated": null,
+      "variants": [
+        {
+          "option": "Select Candle",
+          "values": [
+            "Candle Only",
+            "Candle with Cliff Tray"
+          ]
+        }
+      ],
+      "images": [
+        "/images/candles/CALBEROPIFS25INSILENCE-4541-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-3807-1-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4452-EDIT-2.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+        "/images/candles/CALBEROPIFS25INSILENCE-4549-1-EDIT.jpg"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "CALBEROPIFS25INSILENCE-4542-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4542-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/39e400da-7dd6-42e0-8c1d-c9fd26748218/CALBEROPIFS25INSILENCE-4542-EDIT.jpg",
+      "alt": "Echo Candle",
+      "original_width": 5120,
+      "original_height": 6400,
+      "context": "product list",
+      "width": 2500,
+      "height": 3125,
+      "bytes": 1098282
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/c09efb7b-4b44-4989-8f36-7e1f0cc3c291/CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "original_width": 6400,
+      "original_height": 4267,
+      "context": "product list",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 156256
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-3807-1-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-3807-1-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/ccfadb27-8b44-424d-91c0-e8d45084b2da/CALBEROPIFS25INSILENCE-3807+1-EDIT.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-3807 1-EDIT.jpg",
+      "original_width": 4267,
+      "original_height": 6400,
+      "context": "product detail",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 1171944
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/26632348-f03d-463d-a949-4c836a8d4d6a/CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-4545-EDIT.jpg",
+      "original_width": 5120,
+      "original_height": 6400,
+      "context": "product detail",
+      "width": 2500,
+      "height": 3125,
+      "bytes": 1062792
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/4acfafe7-7a9a-4f4e-9f96-47792834d57d/CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-3952-EDIT-2.jpg",
+      "original_width": 4267,
+      "original_height": 6400,
+      "context": "product detail",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 858234
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4549-1-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4549-1-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/e58325fc-4518-49df-bc59-31b7481aa942/CALBEROPIFS25INSILENCE-4549+1-EDIT.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-4549 1-EDIT.jpg",
+      "original_width": 4267,
+      "original_height": 6400,
+      "context": "product detail",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 1516330
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4541-EDIT.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4541-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/0690b2ee-009b-4a0f-aa73-d220f8532787/CALBEROPIFS25INSILENCE-4541-EDIT.jpg",
+      "alt": "Hush Candle",
+      "original_width": 5120,
+      "original_height": 6400,
+      "context": "product list",
+      "width": 2500,
+      "height": 3125,
+      "bytes": 1023266
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4452-EDIT-2.jpg",
+      "path": "/images/candles/CALBEROPIFS25INSILENCE-4452-EDIT-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/889309d8-51d2-4745-81e0-94e8e4f4ff11/CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "alt": "CALBEROPIFS25INSILENCE-4452-EDIT.jpg",
+      "original_width": 6400,
+      "original_height": 4267,
+      "context": "product detail",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 156256
+    }
+  ]
+}

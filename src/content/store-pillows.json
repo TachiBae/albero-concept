@@ -1,0 +1,92 @@
+{
+  "slug": "store-pillows",
+  "source_url": "https://www.albero.ph/store-pillows",
+  "final_url": "https://www.albero.ph/store-pillows",
+  "redirected": false,
+  "title": "Albero Pillows — ALBERO",
+  "og_title": "Albero Pillows — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": []
+    }
+  ],
+  "products": [
+    {
+      "source": "store",
+      "name": "Otto Pillow | Snow",
+      "url": "https://www.albero.ph/store-pillows/osloinsnow",
+      "category": "Albero Pillows",
+      "price": "₱2,450.00",
+      "description": [
+        "This distinctive spherical pillow adds a touch of personality to your sofa, enhancing the mood of your space. The unique design may be used for layering with different throw pillows to create depth in the living atmosphere.",
+        "For Pre-Order | Lead Time: 2 to 3 Weeks"
+      ],
+      "dimensions": null,
+      "materials_as_stated": null,
+      "variants": null,
+      "images": [
+        "/images/store-pillows/Albero_Pillow01_Otto.jpg",
+        "/images/store-pillows/ALBERO-CLOSER-42-5529.jpg"
+      ]
+    },
+    {
+      "source": "store",
+      "name": "Otto Pillow | Truffle",
+      "url": "https://www.albero.ph/store-pillows/osloinsnow-a9s9j",
+      "category": "Albero Pillows",
+      "price": "₱2,450.00",
+      "description": [
+        "This distinctive spherical pillow adds a touch of personality to your sofa, enhancing the mood of your space. The unique design may be used for layering with different throw pillows to create depth in the living atmosphere.",
+        "For Pre-Order | Lead Time: 2 to 3 Weeks"
+      ],
+      "dimensions": null,
+      "materials_as_stated": null,
+      "variants": null,
+      "images": [
+        "/images/store-pillows/Albero_Pillow02_Otto.jpg",
+        "/images/store-pillows/ALBERO-CLOSER-42-5529.jpg"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "file": "Albero_Pillow01_Otto.jpg",
+      "path": "/images/store-pillows/Albero_Pillow01_Otto.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1634955447427-P7J7W34HSB7S68UMIME7/Albero_Pillow01_Otto.jpg",
+      "alt": "Albero_Pillow01_Otto.jpg",
+      "original_width": 1666,
+      "original_height": 2083,
+      "context": "product list",
+      "width": 1666,
+      "height": 2083,
+      "bytes": 69094
+    },
+    {
+      "file": "ALBERO-CLOSER-42-5529.jpg",
+      "path": "/images/store-pillows/ALBERO-CLOSER-42-5529.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1634954886847-CIP2M1SFF3I1S6GC5OG0/ALBERO-CLOSER-42-5529.jpg",
+      "alt": "ALBERO-CLOSER-42-5529.jpg",
+      "original_width": 2400,
+      "original_height": 3600,
+      "context": "product list",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 1547808
+    },
+    {
+      "file": "Albero_Pillow02_Otto.jpg",
+      "path": "/images/store-pillows/Albero_Pillow02_Otto.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1634955538233-W4MTV0YWF404JK9EEPXD/Albero_Pillow02_Otto.jpg",
+      "alt": "Albero_Pillow02_Otto.jpg",
+      "original_width": 1714,
+      "original_height": 2142,
+      "context": "product list",
+      "width": 1714,
+      "height": 2142,
+      "bytes": 122030
+    }
+  ]
+}

@@ -1,0 +1,577 @@
+{
+  "slug": "insilence-collection",
+  "source_url": "https://www.albero.ph/insilence-collection",
+  "final_url": "https://www.albero.ph/insilence-collection",
+  "redirected": false,
+  "title": "Insilence Collection — ALBERO",
+  "og_title": "Insilence Collection — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "INSILENCE COLLECTION"
+            },
+            {
+              "tag": "h2",
+              "text": "2025 Collection"
+            },
+            {
+              "tag": "p",
+              "text": "This collection honors these invisible threads of connection, the silent conversations between material and memory. With time, they become part of the home’s unspoken rhythm."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/insilence-collection/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "We see furniture as objects that listen, absorb, remember. Because true connection is felt just as much as it is spoken."
+            },
+            {
+              "tag": "p",
+              "text": "View the collection film here:"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/WNz4bQkkHSY?feature=oembed",
+          "title": "INSILENCE Collection | Albero",
+          "provider": "YouTube",
+          "description": null,
+          "thumbnail": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "In INSILENCE, furniture is more than function—it is dialogue, memory, and movement. Come closer—there’s something waiting to be heard."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Elio Sofa",
+              "description": null,
+              "image": "/images/insilence-collection/Elio-Sofa.jpg",
+              "link": null
+            },
+            {
+              "title": "Theo Side Table",
+              "description": null,
+              "image": "/images/insilence-collection/Theo-Side-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Rowan Console Table with River Rock Handles",
+              "description": null,
+              "image": "/images/insilence-collection/Rowan.jpg",
+              "link": null
+            },
+            {
+              "title": "Kindred Dining Table",
+              "description": null,
+              "image": "/images/insilence-collection/Kindred-Dining-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Cael Dining Chair",
+              "description": null,
+              "image": "/images/insilence-collection/photo_2025-03-14_17-26-21.jpg",
+              "link": null
+            },
+            {
+              "title": "Soren Buffet Table",
+              "description": null,
+              "image": "/images/insilence-collection/Soren-Buffet-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Talo Dining Chair (Plaid)",
+              "description": null,
+              "image": "/images/insilence-collection/Talo-Dining-Chair-Checkered-.jpg",
+              "link": null
+            },
+            {
+              "title": "Noa Coffee Table",
+              "description": null,
+              "image": "/images/insilence-collection/Noa-Coffee-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Talo Chair (Cream)",
+              "description": null,
+              "image": "/images/insilence-collection/Talo-Dining-Chair-White-.jpg",
+              "link": null
+            },
+            {
+              "title": "Vowen Tables / Bench",
+              "description": null,
+              "image": "/images/insilence-collection/Vowen-Tables.jpg",
+              "link": null
+            },
+            {
+              "title": "Tierre Side Table",
+              "description": null,
+              "image": "/images/insilence-collection/Tierre-Side-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Fable Chair",
+              "description": null,
+              "image": "/images/insilence-collection/Fable-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Aphro Accent Chair",
+              "description": null,
+              "image": "/images/insilence-collection/Aphro-Accent-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Elder Accent Chair",
+              "description": null,
+              "image": "/images/insilence-collection/Elder-Accent-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "",
+              "description": null,
+              "image": "/images/insilence-collection/Milton-Accent-Chair.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Amust, a poetic dance in the air that pasts the face as soon as one comes back home."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/insilence-collection/CALBEROPIFS25INSILENCE-4382-EDIT.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Discover the space:"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Insilence Lifestyle",
+          "href": "https://www.instagram.com/alberoph"
+        },
+        {
+          "type": "button",
+          "text": "Inquire about the Collection",
+          "href": "/message"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Elio Sofa",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Elio-Sofa.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Theo Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Theo-Side-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Rowan Console Table with River Rock Handles",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Rowan.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Kindred Dining Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Kindred-Dining-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Cael Dining Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/photo_2025-03-14_17-26-21.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Soren Buffet Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Soren-Buffet-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Talo Dining Chair (Plaid)",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Talo-Dining-Chair-Checkered-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Noa Coffee Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Noa-Coffee-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Talo Chair (Cream)",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Talo-Dining-Chair-White-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Vowen Tables / Bench",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Vowen-Tables.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Tierre Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Tierre-Side-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Fable Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Fable-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Aphro Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Aphro-Accent-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Elder Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/insilence-collection/Elder-Accent-Chair.jpg"
+      ],
+      "link": null
+    }
+  ],
+  "images": [
+    {
+      "file": "CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "path": "/images/insilence-collection/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/c151e616-8d28-4c25-92d3-bd273c820c29/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "alt": null,
+      "original_width": 6400,
+      "original_height": 4267,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 343082
+    },
+    {
+      "file": "Elio-Sofa.jpg",
+      "path": "/images/insilence-collection/Elio-Sofa.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741944382157-ZB5FJ1PHUW40U0UZ71OT/Elio+Sofa.jpg",
+      "alt": "Elio Sofa",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 121774
+    },
+    {
+      "file": "Theo-Side-Table.jpg",
+      "path": "/images/insilence-collection/Theo-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759368057-UTZ182XI8KCS81Q1QMYM/Theo+Side+Table.jpg",
+      "alt": "Theo Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 128348
+    },
+    {
+      "file": "Rowan.jpg",
+      "path": "/images/insilence-collection/Rowan.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741944365081-FB15GA3WSOOS0EXNG6YD/Rowan.jpg",
+      "alt": "Rowan Console Table with River Rock Handles",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 140600
+    },
+    {
+      "file": "Kindred-Dining-Table.jpg",
+      "path": "/images/insilence-collection/Kindred-Dining-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759501452-94MQFAC1EOQ0NWI8JPCQ/Kindred+Dining+Table.jpg",
+      "alt": "Kindred Dining Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 134592
+    },
+    {
+      "file": "photo_2025-03-14_17-26-21.jpg",
+      "path": "/images/insilence-collection/photo_2025-03-14_17-26-21.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741944390046-85BS5SEGA4LMHPUWO3KV/photo_2025-03-14_17-26-21.jpg",
+      "alt": "Cael Dining Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 853,
+      "height": 1280,
+      "bytes": 28990
+    },
+    {
+      "file": "Soren-Buffet-Table.jpg",
+      "path": "/images/insilence-collection/Soren-Buffet-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759510919-0TBIR50NY4TL8NFGQEXI/Soren+Buffet+Table.jpg",
+      "alt": "Soren Buffet Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 233370
+    },
+    {
+      "file": "Talo-Dining-Chair-Checkered-.jpg",
+      "path": "/images/insilence-collection/Talo-Dining-Chair-Checkered-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759580352-B62DWFQH7ANSKP8BWPIW/Talo+Dining+Chair+%28Checkered%29.jpg",
+      "alt": "Talo Dining Chair (Plaid)",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 233780
+    },
+    {
+      "file": "Noa-Coffee-Table.jpg",
+      "path": "/images/insilence-collection/Noa-Coffee-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759656064-08JZMCE035GC0GSFTQHS/Noa+Coffee+Table.jpg",
+      "alt": "Noa Coffee Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 126868
+    },
+    {
+      "file": "Talo-Dining-Chair-White-.jpg",
+      "path": "/images/insilence-collection/Talo-Dining-Chair-White-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759871140-ORVYRG6NAK0JDWAP0BIA/Talo+Dining+Chair+%28White%29.jpg",
+      "alt": "Talo Chair (Cream)",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 200458
+    },
+    {
+      "file": "Vowen-Tables.jpg",
+      "path": "/images/insilence-collection/Vowen-Tables.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741759918415-IFORTR3XJO4X8A9DB4OY/Vowen+Tables.jpg",
+      "alt": "Vowen Tables / Bench",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 164704
+    },
+    {
+      "file": "Tierre-Side-Table.jpg",
+      "path": "/images/insilence-collection/Tierre-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741760124417-3SQ8UOXAYXCBHEUAVTTH/Tierre+Side+Table.jpg",
+      "alt": "Tierre Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 236048
+    },
+    {
+      "file": "Fable-Chair.jpg",
+      "path": "/images/insilence-collection/Fable-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741760345099-3W71YM0NDNUEXUGHX3JY/Fable+Chair.jpg",
+      "alt": "Fable Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 263440
+    },
+    {
+      "file": "Aphro-Accent-Chair.jpg",
+      "path": "/images/insilence-collection/Aphro-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741760353176-2YFQ3F6IJ2QHHNA4FTLE/Aphro+Accent+Chair.jpg",
+      "alt": "Aphro Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 273506
+    },
+    {
+      "file": "Elder-Accent-Chair.jpg",
+      "path": "/images/insilence-collection/Elder-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741760561566-E2RP8T09COUVSI7H1NO6/Elder+Accent+Chair.jpg",
+      "alt": "Elder Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 201744
+    },
+    {
+      "file": "Milton-Accent-Chair.jpg",
+      "path": "/images/insilence-collection/Milton-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1741760573168-T11X8VUDH4W68L6AXB6D/Milton+Accent+Chair.jpg",
+      "alt": "Milton Accent Chair.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 256198
+    },
+    {
+      "file": "CALBEROPIFS25INSILENCE-4382-EDIT.jpg",
+      "path": "/images/insilence-collection/CALBEROPIFS25INSILENCE-4382-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/4ead7fc4-bee3-4b2d-9cea-b13f2ba85d98/CALBEROPIFS25INSILENCE-4382-EDIT.jpg",
+      "alt": null,
+      "original_width": 6400,
+      "original_height": 4267,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 459086
+    }
+  ]
+}

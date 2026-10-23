@@ -1,0 +1,775 @@
+{
+  "slug": "2ndhaus-collection",
+  "source_url": "https://www.albero.ph/2ndhaus-collection",
+  "final_url": "https://www.albero.ph/2ndhaus-collection",
+  "redirected": false,
+  "title": "Our vision of a boutique-inspired retreat shaped by everyday rituals of rest and movement — ALBERO",
+  "og_title": "<br/>Our vision of a boutique-inspired retreat shaped by everyday rituals of rest and movement — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/2ndhaus-collection/2NDHAUS-75325-EDIT.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/2ndhaus-collection/Albero---Website-Squarespace-.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "2nd Haus"
+            },
+            {
+              "tag": "h1",
+              "text": "2026 Collection"
+            },
+            {
+              "tag": "p",
+              "text": "You are greeted by a gentle breeze and the scent of freshly picked flowers as you check in."
+            },
+            {
+              "tag": "p",
+              "text": "Many dream of hotels as a home. For this collection, Albero presents an escape that still feels like home."
+            },
+            {
+              "tag": "p",
+              "text": "Inspired by a boutique stay, it offers a glimpse of what it might be like if Albero had its own hotel:"
+            },
+            {
+              "tag": "p",
+              "text": "a space that makes you look forward to coming over, yet feels lived in, as if you’ve always owned it."
+            },
+            {
+              "tag": "p",
+              "text": "Step in, and create your space with Albero."
+            },
+            {
+              "tag": "h2",
+              "text": "Experience Your 2nd Haus Here:"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/R1KlNQv1F_8?feature=oembed",
+          "title": "2nd Haus: Albero Hotel | ALBERO",
+          "provider": "YouTube",
+          "description": null,
+          "thumbnail": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Here, familiar forms, materials, and textures — the smooth curve of wood, the soft embrace of fabric, the subtle grain under your fingertips — are reimagined in a contemporary setting, creating a home you’ll dream of, yet could truly call your own."
+            },
+            {
+              "tag": "p",
+              "text": "Discover the catalog here:"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Solace Bed",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Solace-Bed.jpg",
+              "link": null
+            },
+            {
+              "title": "Lume Night Stand (Enclosed)",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Lume-Night-Stand-Enclosed-.jpg",
+              "link": null
+            },
+            {
+              "title": "Lume Night Stand (Open)",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Lume-Night-Stand-Open-.jpg",
+              "link": null
+            },
+            {
+              "title": "Dune Accent Chair",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Dune-Accent-Chair-Side-.jpg",
+              "link": null
+            },
+            {
+              "title": "Osh Sofa",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Osh-Sofa.jpg",
+              "link": null
+            },
+            {
+              "title": "Vowen Accent Chair",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Vowen-Accent-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Rue Side Table",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Rue-Side-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Linea Coffee Table",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Linea-Coffee-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Owa Bench",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Owa-Bench.jpg",
+              "link": null
+            },
+            {
+              "title": "Chair",
+              "description": null,
+              "image": "/images/2ndhaus-collection/ABR_0996.jpg",
+              "link": null
+            },
+            {
+              "title": "Heaton Table",
+              "description": null,
+              "image": "/images/2ndhaus-collection/ABR_1047.jpg",
+              "link": null
+            },
+            {
+              "title": "Amalfi Chair",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Amalfi-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Xyril Bar Cart",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Xyril-Bar-Cart.jpg",
+              "link": null
+            },
+            {
+              "title": "Covia Vanity Stool",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Covia-Vanity-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Bacchus Bar Cart",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Bacchus-Bar-Cart.jpg",
+              "link": null
+            },
+            {
+              "title": "Maison Console",
+              "description": null,
+              "image": "/images/2ndhaus-collection/ABR_1181.jpg",
+              "link": null
+            },
+            {
+              "title": "Svet Chair",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Svet-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Adri Desk",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Adri-Desk.jpg",
+              "link": null
+            },
+            {
+              "title": "Varen Side Table",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Varen-Side-Table.jpg",
+              "link": null
+            },
+            {
+              "title": "Carson Side Table",
+              "description": null,
+              "image": "/images/2ndhaus-collection/Carson-Side-Table.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/2ndhaus-collection/Squarespace---Logos-4-.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "button",
+          "text": "2nd Haus Experience",
+          "href": "https://www.instagram.com/alberoph"
+        },
+        {
+          "type": "button",
+          "text": "Inquire about the Collection",
+          "href": "/message"
+        },
+        {
+          "type": "button",
+          "text": "Schedule a Design Consultation",
+          "href": "/message"
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/2ndhaus-collection/DSCF6639-EDIT-2.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Solace Bed",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Solace-Bed.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Lume Night Stand (Enclosed)",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Lume-Night-Stand-Enclosed-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Lume Night Stand (Open)",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Lume-Night-Stand-Open-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Dune Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Dune-Accent-Chair-Side-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Osh Sofa",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Osh-Sofa.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Vowen Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Vowen-Accent-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Rue Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Rue-Side-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Linea Coffee Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Linea-Coffee-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Owa Bench",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Owa-Bench.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/ABR_0996.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Heaton Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/ABR_1047.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Amalfi Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Amalfi-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Xyril Bar Cart",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Xyril-Bar-Cart.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Covia Vanity Stool",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Covia-Vanity-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Bacchus Bar Cart",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Bacchus-Bar-Cart.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Maison Console",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/ABR_1181.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Svet Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Svet-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Adri Desk",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Adri-Desk.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Varen Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Varen-Side-Table.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Carson Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/2ndhaus-collection/Carson-Side-Table.jpg"
+      ],
+      "link": null
+    }
+  ],
+  "images": [
+    {
+      "file": "2NDHAUS-75325-EDIT.jpg",
+      "path": "/images/2ndhaus-collection/2NDHAUS-75325-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/8d9102ae-8f0d-41f6-8433-e09473042dbb/2NDHAUS-75325-EDIT.jpg",
+      "alt": null,
+      "original_width": 6048,
+      "original_height": 4032,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 215948
+    },
+    {
+      "file": "Albero---Website-Squarespace-.png",
+      "path": "/images/2ndhaus-collection/Albero---Website-Squarespace-.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/fad49899-f0d8-4dec-bf94-06856d7a792d/Albero+-+Website+%28Squarespace%29.png",
+      "alt": null,
+      "original_width": 3000,
+      "original_height": 1200,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1000,
+      "bytes": 412700
+    },
+    {
+      "file": "Solace-Bed.jpg",
+      "path": "/images/2ndhaus-collection/Solace-Bed.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772550387125-15A3KSLYCFX5P5QYIYZL/Solace+Bed.jpg",
+      "alt": "Solace Bed",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 187252
+    },
+    {
+      "file": "Lume-Night-Stand-Enclosed-.jpg",
+      "path": "/images/2ndhaus-collection/Lume-Night-Stand-Enclosed-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772589199686-ZT90ZOMO5ZPMAF23IWLX/Lume+Night+Stand+%28Enclosed%29.jpg",
+      "alt": "Lume Night Stand (Enclosed)",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 243492
+    },
+    {
+      "file": "Lume-Night-Stand-Open-.jpg",
+      "path": "/images/2ndhaus-collection/Lume-Night-Stand-Open-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772553597049-B2PH3SV6BKMII5X88XEH/Lume+Night+Stand+%28Open%29.jpg",
+      "alt": "Lume Night Stand (Open)",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 189672
+    },
+    {
+      "file": "Dune-Accent-Chair-Side-.jpg",
+      "path": "/images/2ndhaus-collection/Dune-Accent-Chair-Side-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554967771-2CO9OKIYKQH8K3280KIR/Dune+Accent+Chair+%28Side%29.jpg",
+      "alt": "Dune Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 285684
+    },
+    {
+      "file": "Osh-Sofa.jpg",
+      "path": "/images/2ndhaus-collection/Osh-Sofa.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772555389198-2HGKG2EBNK84YPMP1YK9/Osh+Sofa.jpg",
+      "alt": "Osh Sofa",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 229082
+    },
+    {
+      "file": "Vowen-Accent-Chair.jpg",
+      "path": "/images/2ndhaus-collection/Vowen-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772555284896-DX6MULNMGPMSLC7B6O1I/Vowen+Accent+Chair.jpg",
+      "alt": "Vowen Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 416794
+    },
+    {
+      "file": "Rue-Side-Table.jpg",
+      "path": "/images/2ndhaus-collection/Rue-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554218416-KJS3RGJDQHEX77BQY8O7/Rue+Side+Table.jpg",
+      "alt": "Rue Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 154574
+    },
+    {
+      "file": "Linea-Coffee-Table.jpg",
+      "path": "/images/2ndhaus-collection/Linea-Coffee-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554498518-TYNSQO54Q89VD9BNGFIX/Linea+Coffee+Table.jpg",
+      "alt": "Linea Coffee Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 175032
+    },
+    {
+      "file": "Owa-Bench.jpg",
+      "path": "/images/2ndhaus-collection/Owa-Bench.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772552532237-CTUVNZHJ051K82WAWDEB/Owa+Bench.jpg",
+      "alt": "Owa Bench",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 154820
+    },
+    {
+      "file": "ABR_0996.jpg",
+      "path": "/images/2ndhaus-collection/ABR_0996.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772551025893-ZUDEVWRE93ZG0EF2PGBT/ABR_0996.jpg",
+      "alt": "Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 175000
+    },
+    {
+      "file": "ABR_1047.jpg",
+      "path": "/images/2ndhaus-collection/ABR_1047.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772551838001-0HDR16UUPA11EXGF48BT/ABR_1047.jpg",
+      "alt": "Heaton Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 189510
+    },
+    {
+      "file": "Amalfi-Chair.jpg",
+      "path": "/images/2ndhaus-collection/Amalfi-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772551262170-D40PCEEFXW7I5P1G358R/Amalfi+Chair.jpg",
+      "alt": "Amalfi Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 189350
+    },
+    {
+      "file": "Xyril-Bar-Cart.jpg",
+      "path": "/images/2ndhaus-collection/Xyril-Bar-Cart.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554501713-W0RSHI9CUTE99P63005G/Xyril+Bar+Cart.jpg",
+      "alt": "Xyril Bar Cart",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 226194
+    },
+    {
+      "file": "Covia-Vanity-Chair.jpg",
+      "path": "/images/2ndhaus-collection/Covia-Vanity-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772552225247-29CVOUP7HDQCJHHFGPPH/Covia+Vanity+Chair.jpg",
+      "alt": "Covia Vanity Stool",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 377670
+    },
+    {
+      "file": "Bacchus-Bar-Cart.jpg",
+      "path": "/images/2ndhaus-collection/Bacchus-Bar-Cart.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554704502-5E8DH3PX98WGN194ZD7L/Bacchus+Bar+Cart.jpg",
+      "alt": "Bacchus Bar Cart",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 236744
+    },
+    {
+      "file": "ABR_1181.jpg",
+      "path": "/images/2ndhaus-collection/ABR_1181.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554048337-DOEBW0PGFJPH7S7AVJU7/ABR_1181.jpg",
+      "alt": "Maison Console",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 169842
+    },
+    {
+      "file": "Svet-Chair.jpg",
+      "path": "/images/2ndhaus-collection/Svet-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772551025562-WDJ4QL14G787VAI42URZ/Svet+Chair.jpg",
+      "alt": "Svet Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 165336
+    },
+    {
+      "file": "Adri-Desk.jpg",
+      "path": "/images/2ndhaus-collection/Adri-Desk.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772555070096-XMNBMX3QPPH2L6XZFGD9/Adri+Desk.jpg",
+      "alt": "Adri Desk",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 198440
+    },
+    {
+      "file": "Varen-Side-Table.jpg",
+      "path": "/images/2ndhaus-collection/Varen-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772552582662-I375VEOVSYAOQ3Q7QPMM/Varen+Side+Table.jpg",
+      "alt": "Varen Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 169482
+    },
+    {
+      "file": "Carson-Side-Table.jpg",
+      "path": "/images/2ndhaus-collection/Carson-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772554699827-XS64WP7H2A0TH8P45UTZ/Carson+Side+Table.jpg",
+      "alt": "Carson Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 143880
+    },
+    {
+      "file": "Squarespace---Logos-4-.png",
+      "path": "/images/2ndhaus-collection/Squarespace---Logos-4-.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/bc03beeb-9a17-4e97-9e11-1aac678f081e/Squarespace+-+Logos+%284%29.png",
+      "alt": null,
+      "original_width": 2880,
+      "original_height": 900,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 781,
+      "bytes": 27914
+    },
+    {
+      "file": "DSCF6639-EDIT-2.jpg",
+      "path": "/images/2ndhaus-collection/DSCF6639-EDIT-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/8cc769c6-330f-4d36-a3d7-427057348aab/DSCF6639-EDIT+2.jpg",
+      "alt": null,
+      "original_width": 2499,
+      "original_height": 3169,
+      "context": "section-1 image block",
+      "width": 2499,
+      "height": 3169,
+      "bytes": 330038
+    }
+  ]
+}

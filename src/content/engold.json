@@ -1,0 +1,566 @@
+{
+  "slug": "engold",
+  "source_url": "https://www.albero.ph/engold",
+  "final_url": "https://www.albero.ph/engold",
+  "redirected": false,
+  "title": "En Gold — ALBERO",
+  "og_title": "En Gold — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "FOSSIL STONE COLLECTION"
+            },
+            {
+              "tag": "h2",
+              "text": "Albero x En Gold"
+            },
+            {
+              "tag": "p",
+              "text": "We welcome En Gold, an Australian brand born out of a love for craftsmanship and cultural heritage. Through a shared philosophy for design, we at Albero bring to the spotlight the art of Fossil Stone Furniture, a traditional handcrafted skill close to En Gold Founder Steffanie Ball."
+            },
+            {
+              "tag": "p",
+              "text": "The Miro and Estrella collections rethink and redefine the possibilities of handcrafted limestone pieces in home decor. Complemented by the curves of each piece, they set a new standard for originality and minimalism."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/engold/Screenshot-2025-04-04-at-2.35.33-PM.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Presenting the Fossil Stone Collection –"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Mala Coffee Table, Natural",
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.32.46-PM.png",
+              "link": null
+            },
+            {
+              "title": "Mala Coffee Table, Cream",
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.38.50-PM.png",
+              "link": null
+            },
+            {
+              "title": "Mala Coffee Table, Gray",
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.32.55-PM.png",
+              "link": null
+            },
+            {
+              "title": "Mala Coffee Table, Moreno",
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.32.35-PM.png",
+              "link": null
+            },
+            {
+              "title": "Miro Coffee Table",
+              "description": null,
+              "image": "/images/engold/IMG_5834.jpg",
+              "link": null
+            },
+            {
+              "title": "Tierra Grande",
+              "description": null,
+              "image": "/images/engold/287155_Grande_studio_01_V2_3024x.jpg",
+              "link": null
+            },
+            {
+              "title": "Tierra Petite",
+              "description": null,
+              "image": "/images/engold/287155_Petite_studio_01_V2_3024x.jpg",
+              "link": null
+            },
+            {
+              "title": "Arena Table",
+              "description": null,
+              "image": "/images/engold/arena_LS2_3024x.jpg",
+              "link": null
+            },
+            {
+              "title": "Isla Dining Table",
+              "description": null,
+              "image": "/images/engold/round_big_LS_2500x.jpg",
+              "link": null
+            },
+            {
+              "title": "Miro Entertainment Cabinet",
+              "description": null,
+              "image": "/images/engold/IMG_5831.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h2",
+              "text": "Imagine the Collection in your space"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.36.01-PM.png",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/IMG_0001_11.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.35.16-PM.png",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/IMG_0010_11.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.42.39-PM.png",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/IMG_0013_11.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.42.24-PM.png",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/engold/Screenshot-2025-04-04-at-2.46.49-PM.png",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "As you bring in these pieces in your home, you take with you a piece of history."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "REQUEST QUOTATION",
+          "href": "https://albero.ph/inquiries-estrella"
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/engold/IMG_0050_5.jpg",
+          "alt": "",
+          "caption": "the Art of Fossil Furniture The art of Fossil Stone Furniture is a traditional handcrafted skill unique to the islands in the Philippines. Every step of the process is handmade, and each piece is perfectly imperfect. This is the beauty of this craft and perfection should never be expected, the beauty is found in the uneven surface, small organic holes and pits, slightly unaligned joints. This tells the story of the hands that crafted each and every piece.",
+          "link": null
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Mala Coffee Table, Natural",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/Screenshot-2025-04-04-at-2.32.46-PM.png"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Mala Coffee Table, Cream",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/Screenshot-2025-04-04-at-2.38.50-PM.png"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Mala Coffee Table, Gray",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/Screenshot-2025-04-04-at-2.32.55-PM.png"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Mala Coffee Table, Moreno",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/Screenshot-2025-04-04-at-2.32.35-PM.png"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Miro Coffee Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/IMG_5834.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Tierra Grande",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/287155_Grande_studio_01_V2_3024x.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Tierra Petite",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/287155_Petite_studio_01_V2_3024x.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Arena Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/arena_LS2_3024x.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Isla Dining Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/round_big_LS_2500x.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Miro Entertainment Cabinet",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/engold/IMG_5831.jpg"
+      ],
+      "link": null
+    }
+  ],
+  "images": [
+    {
+      "file": "Screenshot-2025-04-04-at-2.35.33-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.35.33-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1e3565cb-10f0-46f1-a0fd-da2cc4f86f69/Screenshot+2025-04-04+at+2.35.33+PM.png",
+      "alt": null,
+      "original_width": 1458,
+      "original_height": 952,
+      "context": "section-1 image block",
+      "width": 1458,
+      "height": 952,
+      "bytes": 878918
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.32.46-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.32.46-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748388866-ZX7OTR4V4TGATPXTUEY3/Screenshot+2025-04-04+at+2.32.46+PM.png",
+      "alt": "Mala Coffee Table, Natural",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2022,
+      "height": 1514,
+      "bytes": 1188406
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.38.50-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.38.50-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748752614-O98XZBWFBF095D6O2GXW/Screenshot+2025-04-04+at+2.38.50+PM.png",
+      "alt": "Mala Coffee Table, Cream",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1718,
+      "height": 1284,
+      "bytes": 1131600
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.32.55-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.32.55-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748406458-NKZJ4LA9BTVNTQ7NH34K/Screenshot+2025-04-04+at+2.32.55+PM.png",
+      "alt": "Mala Coffee Table, Gray",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1886,
+      "height": 1418,
+      "bytes": 1242210
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.32.35-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.32.35-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748370505-8ERGDTN2ER731B8F1AW5/Screenshot+2025-04-04+at+2.32.35+PM.png",
+      "alt": "Mala Coffee Table, Moreno",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1688,
+      "height": 1276,
+      "bytes": 903178
+    },
+    {
+      "file": "IMG_5834.jpg",
+      "path": "/images/engold/IMG_5834.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1670156145595-H0IC6ZBFSS6VD7U7MENG/IMG_5834.JPG",
+      "alt": "Miro Coffee Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1296,
+      "height": 972,
+      "bytes": 45620
+    },
+    {
+      "file": "287155_Grande_studio_01_V2_3024x.jpg",
+      "path": "/images/engold/287155_Grande_studio_01_V2_3024x.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651895533330-N9S76FT47YQXQI7KKTSR/287155_Grande_studio_01_V2_3024x.jpg",
+      "alt": "Tierra Grande",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 1875,
+      "bytes": 184016
+    },
+    {
+      "file": "287155_Petite_studio_01_V2_3024x.jpg",
+      "path": "/images/engold/287155_Petite_studio_01_V2_3024x.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651895533544-58DM17X24TVN6U3T983Z/287155_Petite_studio_01_V2_3024x.jpg",
+      "alt": "Tierra Petite",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 1875,
+      "bytes": 188190
+    },
+    {
+      "file": "arena_LS2_3024x.jpg",
+      "path": "/images/engold/arena_LS2_3024x.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651895539785-BAKYJVAJ43AOAIUPRT5W/arena_LS2_3024x.jpg",
+      "alt": "Arena Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 1875,
+      "bytes": 234732
+    },
+    {
+      "file": "round_big_LS_2500x.jpg",
+      "path": "/images/engold/round_big_LS_2500x.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651895538908-3IISXJVDV20GGDE0N7S6/round_big_LS_2500x.jpg",
+      "alt": "Isla Dining Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 1875,
+      "bytes": 259844
+    },
+    {
+      "file": "IMG_5831.jpg",
+      "path": "/images/engold/IMG_5831.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1670156093335-CFQMW9RD7X12V35ASIBD/IMG_5831.jpg",
+      "alt": "Miro Entertainment Cabinet",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 903,
+      "height": 677,
+      "bytes": 13020
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.36.01-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.36.01-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748964315-0A4RX8UUTL1H18NJEFZ6/Screenshot+2025-04-04+at+2.36.01+PM.png",
+      "alt": "Screenshot 2025-04-04 at 2.36.01 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1162,
+      "height": 1392,
+      "bytes": 1338852
+    },
+    {
+      "file": "IMG_0001_11.jpg",
+      "path": "/images/engold/IMG_0001_11.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651907090121-A4VPCK3LXA2NQCBLCNHZ/IMG_0001_11.jpg",
+      "alt": "IMG_0001_11.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 309250
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.35.16-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.35.16-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748963136-YBL6UOOO0HCF436MD57K/Screenshot+2025-04-04+at+2.35.16+PM.png",
+      "alt": "Screenshot 2025-04-04 at 2.35.16 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1042,
+      "height": 1440,
+      "bytes": 1127154
+    },
+    {
+      "file": "IMG_0010_11.jpg",
+      "path": "/images/engold/IMG_0010_11.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651906351529-2CWTKCPYDQ14GGR6VVAH/IMG_0010_11.jpg",
+      "alt": "IMG_0010_11.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 286790
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.42.39-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.42.39-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743749016765-WCDEAJMIG9LR4OMVSBOP/Screenshot+2025-04-04+at+2.42.39+PM.png",
+      "alt": "Screenshot 2025-04-04 at 2.42.39 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2048,
+      "height": 1640,
+      "bytes": 2593658
+    },
+    {
+      "file": "IMG_0013_11.jpg",
+      "path": "/images/engold/IMG_0013_11.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1651906339472-YPKZL83WBSB7GJTV6TV0/IMG_0013_11.jpg",
+      "alt": "IMG_0013_11.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 285656
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.42.24-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.42.24-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743748999977-HQ3P32EVXX0HDMSY0H3K/Screenshot+2025-04-04+at+2.42.24+PM.png",
+      "alt": "Screenshot 2025-04-04 at 2.42.24 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1790,
+      "height": 1198,
+      "bytes": 1433980
+    },
+    {
+      "file": "Screenshot-2025-04-04-at-2.46.49-PM.png",
+      "path": "/images/engold/Screenshot-2025-04-04-at-2.46.49-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743749223389-5FQVEB2K59BCC29E0QLB/Screenshot+2025-04-04+at+2.46.49+PM.png",
+      "alt": "Screenshot 2025-04-04 at 2.46.49 PM.png",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 1182,
+      "height": 1122,
+      "bytes": 791960
+    },
+    {
+      "file": "IMG_0050_5.jpg",
+      "path": "/images/engold/IMG_0050_5.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/5ccd956d-80c7-4e1f-96c4-5226f10b4b02/IMG_0050_5.jpg",
+      "alt": null,
+      "original_width": 4480,
+      "original_height": 6720,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 129174
+    }
+  ]
+}
