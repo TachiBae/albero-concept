@@ -11,16 +11,11 @@ const title = primaryNav[0].text; // "Collections" (site.json nav)
   <div class="container-page">
     <h2 id="collections-title" class="display-lg">{title}</h2>
 
-    <ul class="mt-12 grid grid-cols-2 gap-x-3 gap-y-10 md:mt-16 md:grid-cols-3 md:gap-x-8 md:gap-y-20 md:pb-20">
+    <ul class="mt-12 grid grid-cols-2 gap-x-3 gap-y-10 md:mt-16 md:grid-cols-3 md:gap-x-8 md:gap-y-20">
       {
         collections.map((c, i) => (
-          <li
-            class:list={[
-              // Stagger the middle column (frame-1); on mobile the 9th card spans both columns.
-              'md:[&:nth-child(3n+2)]:translate-y-20',
-              i === collections.length - 1 && 'col-span-2 md:col-span-1',
-            ]}
-          >
+          // On mobile the 9th card spans both columns.
+          <li class:list={[i === collections.length - 1 && 'col-span-2 md:col-span-1']}>
             <a href={c.href} class="group block">
               <div class="overflow-hidden">
                 <Photo

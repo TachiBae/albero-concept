@@ -36,7 +36,7 @@ Only ONE skill generates layout per page (taste-skill / image-to-code-skill). Th
 | 4. Review      | **impeccable** `/audit`                      | After critique fixes: accessibility, responsiveness, performance                      | The page just built                          |
 | 5. Refine      | **impeccable** `/typeset`                    | Type feels off or inconsistent                                                        | Typography only                              |
 | 5. Refine      | **impeccable** `/polish`                     | Final pass once structure is settled                                                  | The finished page                            |
-| 6. Hero scroll | **Higgsfield** (image-to-video)              | After the homepage is polished: see "Hero scroll animation" below                     | Homepage hero only                           |
+| 6. Hero carousel (no Higgsfield) | **emil-design-eng** / **animate** | After the homepage is polished: see "Hero carousel" below                     | Homepage hero only                           |
 | 7. Motion      | **emil-design-eng** / **animate**            | Nav, hover states, scroll reveals, and the hero scroll's text/overlay timing          | After polish, never before                   |
 | 7. Motion      | **review-animations**                        | Check any motion just added, including the hero scroll                                | Files with animation code                    |
 | 8. Assets      | **Higgsfield** (enhance)                     | Upscale low-res photos, outpaint to 16:9, product cutouts                             | Only images that look weak in the built page |
@@ -49,7 +49,18 @@ Only ONE skill generates layout per page (taste-skill / image-to-code-skill). Th
 - Don't add motion before `/polish`. Animations hide layout problems.
 - Check Higgsfield credit balance before generating. Video costs the most.
 
-## Hero scroll animation (Apple-style scroll-scrubbed sequence)
+## Hero carousel (current)
+
+Curved 3D image carousel in `src/components/Hero.astro`, no Higgsfield and no dependencies:
+
+- Tagline "CREATED FOR YOUR LIFE/STYLE" and its supporting line centred on top, Book Your Visit under them.
+- Below: a full-width ribbon of 10–14 Albero room photos (landscape, no cutouts) on the inside of a cylinder (CSS 3D). Centre cards sit farther away, edge cards come closer.
+- Slow linear auto-scroll (1 card per 3–4 s) that loops seamlessly. Pointer/touch drag with momentum that eases back into the auto-scroll. Paused when the tab is hidden or the hero is offscreen (no pause button, by choice).
+- `prefers-reduced-motion`: static curve, still draggable. Touch only captures horizontal swipes.
+
+## Hero scroll animation: Replaced by curved carousel
+
+Kept for history; not built anymore. `public/hero/` (source video and frames) is no longer used by the page.
 
 **Effect:** the hero is pinned while the user scrolls; scrolling moves the camera slowly through an Albero room. Headline and CTA fade in and out at set points in the scroll.
 
@@ -93,7 +104,7 @@ Templates come early: fixing a template fixes all 9 collections.
 
 ## Per-page loop
 
-shape → Higgsfield mockup frames (templates only) → build → screenshot 1440px + 390px → critique → audit → typeset → polish → [homepage only: hero scroll A–D] → motion → review-animations → Higgsfield enhance (if needed) → final audit → commit
+shape → Higgsfield mockup frames (templates only) → build → screenshot 1440px + 390px → critique → audit → typeset → polish → [homepage only: hero carousel] → motion → review-animations → Higgsfield enhance (if needed) → final audit → commit
 
 ## Git
 

@@ -1,208 +1,277 @@
 ---
-// Pinned 300vh hero (CLAUDE.md "Hero scroll animation", Step C): scrolling
-// scrubs the camera move through public/hero/frames on a sticky canvas, the
-// headline fades out by 40% and the Cere block fades in from 60%.
-// Without JS or with prefers-reduced-motion: a static 100svh stage with the
-// photo and both overlays visible, no pin.
+// Curved carousel hero (CLAUDE.md "Hero carousel", replaces the scroll scrub):
+// the tagline and Book Your Visit centred on top, then a ribbon of Albero room
+// photos on the inside of a cylinder. Centre cards sit farther away, edge cards
+// come closer, so the ribbon's top and bottom edges bow toward the middle.
+// Without JS the same curve renders statically from CSS.
 import Photo from './Photo.astro';
-import { button, firstSentence, pages, quote } from './lib/content';
+import { bookVisit, pages, quote } from './lib/content';
 
 const headline = quote(pages.home, 'CREATED FOR YOUR LIFE/STYLE');
-const subline = firstSentence(pages.storeHome.meta_description ?? '');
-const cereLine = quote(pages.cere, 'A collection of individual pieces');
-const discoverCere = button(pages.home, 'DISCOVER CERE');
+const subline = quote(pages.home, 'We see each space and furniture');
+
+// Landscape room shots only. The inventory has no alt text for these files ("—"), so each describes the photo itself.
+const rooms = [
+  {
+    src: '/images/home/ABR_2282.jpg',
+    alt: 'A Cere Collection living room: tan sofa with cream cushions behind a grey wood coffee table with a stone top',
+  },
+  {
+    src: '/images/2ndhaus-collection/2NDHAUS-75325-EDIT.jpg',
+    alt: 'Round dark wood dining table on an arched base between two cream armchairs, in front of a curtained window',
+  },
+  {
+    src: '/images/insilence-collection/CALBEROPIFS25INSILENCE-4041-EDIT.jpg',
+    alt: 'Two people on a white sectional sofa beside an oval coffee table, beneath a white staircase',
+  },
+  {
+    src: '/images/our-story/Albero---Y-gen-Collection.jpg',
+    alt: 'A person seated on a low sofa beside a round glass coffee table, with a circular window screen behind',
+  },
+  {
+    src: '/images/amust-collection/AMUST_24-8736.jpg',
+    alt: 'Long dining table with upholstered chairs beneath a floating staircase',
+  },
+  {
+    src: '/images/home-2nd-haus/2NDHAUS-74810-EDIT.jpg',
+    alt: 'A bedroom with a brown upholstered bed under tall curtained windows, a slatted coffee table and lounge chair in front',
+  },
+  {
+    src: '/images/cere-collection/ABR_0067.jpg',
+    alt: 'A Cere Collection living room: tan sofa, dark coffee table with a stone top, and a burl wood cabinet with arched glass doors',
+  },
+  {
+    src: '/images/about/ORIGIN-38-6540-EDIT.jpg',
+    alt: 'An open timber gable frame holding a pale upholstered chair and a low table, flanked by shelves of potted flowers',
+  },
+  {
+    src: '/images/close-collection/image-asset.jpeg',
+    alt: 'Two people relaxing in a bedroom with an upholstered bed, floor cushions and a tall shelf',
+  },
+  {
+    src: '/images/hygge-collection/ALBERO_PIFS2020-6413.jpg',
+    alt: 'A pale sofa and a wood coffee table on a curved base, in front of a round window hung with a brown curtain',
+  },
+  {
+    src: '/images/insilence-collection/CALBEROPIFS25INSILENCE-4382-EDIT.jpg',
+    alt: 'Two people seated at a round table with a marble top',
+  },
+  {
+    src: '/images/alberoathome-ley/LANCE_LEY-71.jpg',
+    alt: 'Two people in a bedroom with a peach upholstered headboard and glowing globe lamps',
+  },
+];
+
+// Geometry shared with the script: STEP degrees between cards (the CSS uses sin(STEP / 2)), cards past LIMIT are hidden.
+const STEP = 24;
+const LIMIT = 80;
+const span = STEP * rooms.length;
+const wrap = (a: number) => ((((a + span / 2) % span) + span) % span) - span / 2;
 ---
 
-<section id="hero" class="relative" data-hero>
-  <div class="sticky overflow-hidden" style="top: var(--header-h); height: calc(100svh - var(--header-h))" data-hero-stage>
-    <!-- The sharp photo stays the poster/LCP image; the softer video frames only take over once scrolling starts. -->
-    <Photo
-      src="/images/cere-collection/ABR_0067.jpg"
-      alt="A Cere Collection living room: tan sofa, dark coffee table with a stone top, and a burl wood cabinet with arched glass doors"
-      class="absolute inset-0 h-full w-full object-cover"
-      loading="eager"
-      fetchpriority="high"
-    />
-    <canvas class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-200 ease-(--ease-out)" aria-hidden="true" data-hero-canvas></canvas>
+<!-- Below md the fixed Book Your Visit bar (56px) covers the bottom of the viewport, so the ribbon stops above it. -->
+<section
+  id="hero"
+  class="flex flex-col overflow-hidden pt-[6vh] pb-16 md:pt-[5vh] md:pb-4"
+  style="min-height: calc(100svh - var(--header-h))"
+  data-hero
+>
+  <div class="container-page flex flex-col items-center text-center">
+    <h1 class="display-xl max-w-[20ch]">{headline}</h1>
+    <p class="mt-4 max-w-[58ch] text-[16px] leading-relaxed text-espresso/85">{subline}</p>
+    <a href={bookVisit.href} class="btn-dark mt-6">{bookVisit.text}</a>
+  </div>
 
-    <!-- Scrims sit behind the text only: full-width on mobile, where the text spans the screen; from md they fade out
-         to the right and at the inner edge so the room stays clear. Each lives inside its overlay so it fades with it. -->
-    <div class="absolute inset-x-0 top-0 isolate pt-[7vh] pb-24 md:pt-[9vh] md:pb-40" data-hero-headline>
-      <div
-        class="absolute inset-0 -z-10 bg-linear-to-b from-paper/90 via-paper/85 via-70% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_bottom,black_calc(100%_-_10rem),transparent)]"
-        aria-hidden="true"
-      ></div>
-      <div class="container-page">
-        <h1 class="display-xl max-w-[11ch]">{headline}</h1>
-        {subline && <p class="mt-5 max-w-[34ch] text-[16px] leading-relaxed text-espresso/85">{subline}</p>}
-      </div>
-    </div>
-
-    <!-- --cta-fade: a short fade when both overlays share the screen (static/reduced motion), a long one when scrubbing. -->
-    <div class="absolute inset-x-0 bottom-0 isolate pt-40 pb-[7vh] md:pt-(--cta-fade)" data-hero-cta>
-      <div
-        class="absolute inset-0 -z-10 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_top,black_calc(100%_-_var(--cta-fade)),transparent)]"
-        aria-hidden="true"
-      ></div>
-      <div class="container-page text-paper">
-        <!-- Cere wordmark (transparent PNG with lots of padding), cropped to the script and inverted to light. -->
-        <div class="relative w-[13rem] overflow-hidden md:w-[16rem]" style="aspect-ratio: 660 / 125">
-          <img
-            src="/images/home/ALBBERO---Project-Logos-2-.png"
-            alt="Cere Collection"
-            class="absolute top-0 left-0 max-w-none invert"
-            style="width: 236.8%; margin-left: -69.7%; margin-top: -105.3%"
-            decoding="async"
-          />
-        </div>
-        <p class="mt-4 max-w-[36ch] text-[16px] leading-relaxed text-paper/90">{cereLine}</p>
-        <a href={discoverCere.href} class="btn-light mt-7">{discoverCere.text}</a>
-      </div>
-    </div>
+  <!-- The ribbon takes whatever height is left, so spare space centres the cards instead of leaving a gap above them. -->
+  <div class="relative mt-4 flex flex-1 flex-col">
+    <ul class="ribbon flex-1" data-ribbon>
+      {
+        rooms.map((room, i) => {
+          const a = wrap(i * STEP);
+          return (
+            <li class="card bg-paper-deep" style={`--a: ${a}`} hidden={Math.abs(a) > LIMIT} data-card>
+              <Photo
+                src={room.src}
+                alt={room.alt}
+                class="h-full w-full object-cover"
+                loading={Math.abs(a) <= 2 * STEP ? 'eager' : 'lazy'}
+                fetchpriority={i === 0 ? 'high' : undefined}
+                sizes="(min-width: 768px) 34vw, 85vw"
+              />
+            </li>
+          );
+        })
+      }
+    </ul>
   </div>
 </section>
 
 <style>
-  [data-hero] {
-    height: calc(100svh - var(--header-h));
+  .ribbon {
+    /* Card size caps on the viewport height too, so the ribbon still fits under the headline on short laptops. */
+    --card-w: clamp(240px, min(30vw, 100svh - 23rem), 520px);
+    --card-h: calc(var(--card-w) * 2 / 3);
+    /* Radius that spaces cards STEP (24deg) apart with a 6% gap: chord = 2R sin(12deg). */
+    --r: calc(var(--card-w) * 1.06 / (2 * sin(12deg)));
+    position: relative;
+    min-height: calc(var(--card-h) * 1.35); /* room for the closest visible edge card's scale */
+    perspective: calc(var(--r) * 1.4);
+    cursor: grab;
+    touch-action: pan-y; /* the browser keeps vertical scrolling; only horizontal swipes reach the drag */
+    user-select: none;
+    -webkit-user-select: none;
   }
 
-  [data-hero-cta] {
-    --cta-fade: 2rem;
+  @media (max-width: 767px) {
+    .ribbon {
+      --card-w: 70vw;
+    }
   }
 
-  /* Scrubbing only with JS and without reduced motion; the CTA starts hidden here so it doesn't flash before the script runs. */
-  @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
-    [data-hero] {
-      height: 300vh;
-    }
+  .ribbon[data-dragging] {
+    cursor: grabbing;
+  }
 
-    [data-hero-cta] {
-      --cta-fade: 10rem;
-      opacity: 0;
-    }
+  .card {
+    position: absolute;
+    left: calc(50% - var(--card-w) / 2);
+    top: calc(50% - var(--card-h) / 2);
+    width: var(--card-w);
+    height: var(--card-h);
+    overflow: hidden;
+    backface-visibility: hidden;
+    /* Static pose (no JS, and before the script runs); the script then writes transform directly. */
+    transform: translateZ(var(--r)) rotateY(calc(var(--a) * -1deg)) translateZ(calc(var(--r) * -1));
+  }
+
+  .card[hidden] {
+    display: block;
+    visibility: hidden;
+  }
+
+  .card :global(img) {
+    pointer-events: none;
+    -webkit-user-drag: none;
   }
 </style>
 
 <script>
-  const FRAME_COUNT = { desktop: 100, mobile: 60 } as const;
-  const LERP = 0.2;
+  const STEP = 24; // degrees between cards; keep in sync with the frontmatter and sin(12deg) in the CSS
+  const LIMIT = 80; // cards beyond this angle are off-screen or near the camera: hide them
+  const AUTO = STEP / 3500; // deg per ms: one card every 3.5 s
+  const SETTLE = 700; // ms time constant for released momentum easing back into the auto-scroll
+  const MAX_V = 0.4; // deg per ms cap on a flick
+  const DEG = 180 / Math.PI;
 
   const section = document.querySelector<HTMLElement>('[data-hero]');
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+  const ribbon = section?.querySelector<HTMLElement>('[data-ribbon]');
 
-  if (section && !reduce.matches) {
-    const stage = section.querySelector<HTMLElement>('[data-hero-stage]')!;
-    const canvas = section.querySelector<HTMLCanvasElement>('[data-hero-canvas]')!;
-    const headline = section.querySelector<HTMLElement>('[data-hero-headline]')!;
-    const cta = section.querySelector<HTMLElement>('[data-hero-cta]')!;
-    const ctx = canvas.getContext('2d')!;
-    const wide = matchMedia('(min-width: 768px)');
+  if (section && ribbon) {
+    const cards = [...ribbon.querySelectorAll<HTMLElement>('[data-card]')];
+    const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+    const span = STEP * cards.length;
+    const wrap = (a: number) => ((((a + span / 2) % span) + span) % span) - span / 2;
 
-    let frames: HTMLImageElement[] = [];
-    let current = 0;
-    let drawn = -1;
+    let radius = 0;
+    let offset = 0; // degrees the ribbon has travelled
+    let v = 0; // deg per ms
+    let onscreen = true;
     let raf = 0;
+    let last = 0;
+    let drag: { id: number; x: number; t: number } | null = null;
 
-    const clamp = (v: number) => Math.min(1, Math.max(0, v));
-
-    const range = () => section.offsetHeight - stage.offsetHeight;
-    const progress = () => clamp((parseFloat(getComputedStyle(stage).top) - section.getBoundingClientRect().top) / range());
-
-    const loadFrames = () => {
-      const kind = wide.matches ? 'desktop' : 'mobile';
-      const src = (i: number) => `/hero/frames/${kind}/frame_${String(i + 1).padStart(3, '0')}.webp`;
-      frames = Array.from({ length: FRAME_COUNT[kind] }, () => new Image());
-      drawn = -1;
-      const load = (i: number) => {
-        frames[i].decoding = 'async';
-        frames[i].onload = () => {
-          if (Math.round(current) === i || drawn === -1) kick();
-        };
-        frames[i].src = src(i);
-      };
-      load(0); // the first frame immediately; the rest once the page has loaded
-      const rest = () => frames.forEach((_, i) => i && load(i));
-      document.readyState === 'complete' ? rest() : addEventListener('load', rest, { once: true });
+    const measure = () => {
+      radius = (cards[0].offsetWidth * 1.06) / (2 * Math.sin(STEP / 2 / DEG));
     };
 
-    const sizeCanvas = () => {
-      const dpr = Math.min(devicePixelRatio || 1, 2);
-      canvas.width = Math.round(stage.clientWidth * dpr);
-      canvas.height = Math.round(stage.clientHeight * dpr);
-      drawn = -1;
+    const render = () => {
+      cards.forEach((card, i) => {
+        const a = wrap(i * STEP - offset);
+        const off = Math.abs(a) > LIMIT;
+        if (card.hidden !== off) card.hidden = off;
+        if (!off) card.style.transform = `translateZ(${radius}px) rotateY(${-a}deg) translateZ(${-radius}px)`;
+      });
     };
 
-    // Draw frame i (or the nearest loaded one) like object-fit: cover.
-    const draw = (i: number) => {
-      let img: HTMLImageElement | undefined;
-      for (let d = 0; d < frames.length && !img; d++) {
-        img = [frames[i - d], frames[i + d]].find((f) => f?.complete && f.naturalWidth);
+    const target = () => (reduce.matches ? 0 : AUTO);
+
+    const frame = (t: number) => {
+      const dt = last ? Math.min(t - last, 64) : 0; // clamp so a stalled tab doesn't jump the ribbon
+      last = t;
+      if (!drag) {
+        v += (target() - v) * (1 - Math.exp(-dt / SETTLE));
+        offset += v * dt;
       }
-      if (!img) return false;
-      const scale = Math.max(canvas.width / img.naturalWidth, canvas.height / img.naturalHeight);
-      const w = img.naturalWidth * scale;
-      const h = img.naturalHeight * scale;
-      ctx.drawImage(img, (canvas.width - w) / 2, (canvas.height - h) / 2, w, h);
-      drawn = img === frames[i] ? i : -1;
-      return true;
+      render();
+      // Keep going while it auto-scrolls or coasts; a stopped ribbon (reduced motion) idles until the next drag.
+      raf = onscreen && !document.hidden && (drag || target() || Math.abs(v) > 1e-5) ? requestAnimationFrame(frame) : 0;
+      if (!raf) last = 0;
     };
 
-    // Opacity + a 12px drift only. Headline: visible to 30%, gone by 40%. Cere block: in from 60%, full by 75%, held to the end.
-    const setOverlays = (p: number) => {
-      const out = clamp((p - 0.3) / 0.1);
-      const into = clamp((p - 0.6) / 0.15);
-      headline.style.opacity = String(1 - out);
-      headline.style.transform = `translateY(${-12 * out}px)`;
-      headline.style.pointerEvents = out > 0.5 ? 'none' : '';
-      cta.style.opacity = String(into);
-      cta.style.transform = `translateY(${12 * (1 - into)}px)`;
-      cta.style.pointerEvents = into < 0.5 ? 'none' : '';
+    const kick = () => {
+      if (!raf && onscreen && !document.hidden) raf = requestAnimationFrame(frame);
     };
 
-    const tick = () => {
-      raf = 0;
-      const p = progress();
-      const target = p * (frames.length - 1);
-      current += (target - current) * LERP;
-      if (Math.abs(target - current) < 0.01) current = target;
-      const i = Math.round(current);
-      const shown = i === drawn || draw(i);
-      canvas.style.opacity = shown && p > 0.001 ? '1' : '0';
-      setOverlays(p);
-      if (current !== target) raf = requestAnimationFrame(tick); // a frame still loading restarts this from its onload
-    };
-
-    function kick() {
-      if (!raf) raf = requestAnimationFrame(tick);
-    }
-
-    loadFrames();
-    sizeCanvas();
-    kick();
-    addEventListener('scroll', kick, { passive: true });
-    new ResizeObserver(() => {
-      sizeCanvas();
-      kick();
-    }).observe(stage);
-    wide.addEventListener('change', () => {
-      loadFrames();
-      kick();
-    });
-
-    // A keyboard user tabbing onto the hidden Cere link: scroll to where it is shown instead of focusing something invisible.
-    cta.addEventListener('focusin', () => {
-      if (progress() >= 0.75) return;
-      const top = scrollY + section.getBoundingClientRect().top - parseFloat(getComputedStyle(stage).top);
-      scrollTo({ top: top + range() * 0.8, behavior: 'instant' });
-    });
-
-    // Switching reduced motion on mid-visit: drop the scrub (CSS already restores the static stage).
-    reduce.addEventListener('change', () => {
-      removeEventListener('scroll', kick);
+    const stop = () => {
       cancelAnimationFrame(raf);
-      canvas.style.opacity = '0';
-      for (const el of [headline, cta]) el.removeAttribute('style');
+      raf = 0;
+      last = 0;
+    };
+
+    ribbon.addEventListener('pointerdown', (e) => {
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+      drag = { id: e.pointerId, x: e.clientX, t: e.timeStamp };
+      v = 0;
+      ribbon.setPointerCapture(e.pointerId);
+      ribbon.dataset.dragging = '';
+      kick();
     });
+
+    ribbon.addEventListener('pointermove', (e) => {
+      if (drag?.id !== e.pointerId) return;
+      const delta = (-(e.clientX - drag.x) / radius) * DEG; // dragging right moves the ribbon right
+      const dt = e.timeStamp - drag.t;
+      offset += delta;
+      if (dt > 0) v = v * 0.6 + (delta / dt) * 0.4; // smoothed, so the release carries the flick and not one noisy sample
+      drag.x = e.clientX;
+      drag.t = e.timeStamp;
+    });
+
+    const release = (e: PointerEvent) => {
+      if (drag?.id !== e.pointerId) return;
+      const held = e.timeStamp - drag.t > 80; // stopped moving before letting go: no flick
+      v = reduce.matches || held ? 0 : Math.max(-MAX_V, Math.min(MAX_V, v));
+      drag = null;
+      delete ribbon.dataset.dragging;
+      kick();
+    };
+    ribbon.addEventListener('pointerup', release);
+    ribbon.addEventListener('pointercancel', release); // e.g. the browser took over for a vertical scroll
+
+    reduce.addEventListener('change', () => {
+      v = 0;
+      kick();
+    });
+
+    document.addEventListener('visibilitychange', () => (document.hidden ? stop() : kick()));
+
+    new IntersectionObserver(([entry]) => {
+      onscreen = entry.isIntersecting;
+      onscreen ? kick() : stop();
+    }).observe(section);
+
+    new ResizeObserver(() => {
+      measure();
+      render();
+    }).observe(ribbon);
+
+    // Cards rotate in from hidden, so lazy loading alone would show them blank: fetch the rest once the page has loaded.
+    const preload = () => ribbon.querySelectorAll<HTMLImageElement>('img[loading="lazy"]').forEach((img) => (img.loading = 'eager'));
+    document.readyState === 'complete' ? preload() : addEventListener('load', preload, { once: true });
+
+    measure();
+    v = target();
+    render();
+    kick();
   }
 </script>
