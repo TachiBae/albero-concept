@@ -22,15 +22,19 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
       fetchpriority="high"
     />
 
-    <div class="absolute inset-x-0 top-0 pt-[7vh] md:pt-[9vh]" data-hero-headline>
+    <!-- Paper scrim: the real photo has less bare wall than frame-1, so the subline would sit on the cabinet and sofa. -->
+    <div
+      class="absolute inset-x-0 top-0 bg-linear-to-b from-paper/90 via-paper/85 via-70% to-transparent pt-[7vh] pb-24 md:pt-[9vh] md:pb-40"
+      data-hero-headline
+    >
       <div class="container-page">
         <h1 class="display-xl max-w-[11ch]">{headline}</h1>
-        {subline && <p class="mt-5 max-w-[34ch] text-[15px] leading-relaxed text-ink-soft">{subline}</p>}
+        {subline && <p class="mt-5 max-w-[34ch] text-[16px] leading-relaxed text-espresso/85">{subline}</p>}
       </div>
     </div>
 
     <div
-      class="absolute inset-x-0 bottom-0 bg-linear-to-t from-espresso/80 via-espresso/45 to-transparent pt-40 pb-[7vh]"
+      class="absolute inset-x-0 bottom-0 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent pt-40 pb-[7vh]"
       data-hero-cta
     >
       <div class="container-page text-paper">
@@ -44,7 +48,7 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
             decoding="async"
           />
         </div>
-        <p class="mt-4 max-w-[36ch] text-[15px] leading-relaxed text-paper/90">{cereLine}</p>
+        <p class="mt-4 max-w-[36ch] text-[16px] leading-relaxed text-paper/90">{cereLine}</p>
         <a href={discoverCere.href} class="btn-light mt-7">{discoverCere.text}</a>
       </div>
     </div>

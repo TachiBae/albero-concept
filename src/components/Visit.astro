@@ -21,7 +21,7 @@ const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURICom
         <h2 id="visit-title" class="display-lg">{title}</h2>
         <div class="mt-8 h-px w-full bg-line"></div>
 
-        <dl class="mt-8 space-y-6 text-[15px] leading-relaxed">
+        <dl class="mt-8 space-y-6 text-[16px] leading-relaxed">
           <div class="flex gap-4">
             <dt class="mt-1 shrink-0">
               <span class="sr-only">Address</span>
@@ -31,7 +31,7 @@ const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURICom
               </svg>
             </dt>
             <dd>
-              <span class="caps block text-[11px]">{contact.hqLabel}</span>
+              <span class="caps block">{contact.hqLabel}</span>
               <a href={mapsHref} class="mt-1 block text-ink-soft underline decoration-line underline-offset-4 hover:decoration-current">
                 {contact.address}
               </a>
@@ -47,7 +47,7 @@ const mapsHref = `https://www.google.com/maps/search/?api=1&query=${encodeURICom
               </svg>
             </dt>
             <dd>
-              <span class="caps block text-[11px]">{contact.hoursLabel}</span>
+              <span class="caps block">{contact.hoursLabel}</span>
               <Todo class="mt-2" />
             </dd>
           </div>
