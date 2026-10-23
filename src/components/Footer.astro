@@ -1,4 +1,5 @@
 ---
+import Photo from './Photo.astro';
 import Todo from './Todo.astro';
 import {
   bookVisit,
@@ -38,7 +39,9 @@ const icons: Record<string, string> = {
   <div class="container-page">
     <div class="grid gap-12 md:grid-cols-12 md:gap-8">
       <div class="md:col-span-4">
-        <a href="/" class="font-display text-[26px] leading-none tracking-[0.3em]">{wordmark}</a>
+        <a href="/" class="inline-flex min-h-[44px] items-center" aria-label={`${wordmark}, home`}>
+          <Photo src="/images/site/albero-wordmark.png" alt="" class="h-5 w-auto" sizes="160px" />
+        </a>
         <ul class="mt-8 space-y-2 text-[14px] text-ink-soft">
           <li><a href={`mailto:${contact.footerEmail}`} class="hover:text-espresso">{contact.footerEmail}</a></li>
           <li>{contact.footerLine}</li>

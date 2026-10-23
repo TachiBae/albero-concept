@@ -181,8 +181,9 @@ const yearLabel = (p: Page) => heading(p, /^\d{4} Collection$/);
 const covers: Record<string, { page: Page; meta?: string | null; image: string; alt: string }> = {
   '/cere-collection': {
     page: pages.cere,
-    image: '/images/home/ABR_2282.jpg',
-    alt: 'Dark wood coffee table with a pale stone top in front of a tan sofa and a cushioned lounge chair',
+    // Not ABR_2282: that's the hero's room from another angle (critique: Cere repeated before the index).
+    image: '/images/cere-collection/Clo-Sofa-2.jpg',
+    alt: 'Clo Sofa: tan upholstered sofa on black lacquer side panels, with brown and cream cushions',
   },
   '/2ndhaus-collection': {
     page: pages.secondHaus,
@@ -207,9 +208,8 @@ const covers: Record<string, { page: Page; meta?: string | null; image: string; 
   },
   '/origin-collection': {
     page: pages.origin,
-    // The page's own hero (ORIGIN-52-6138-EDIT.jpg) is missing on disk.
-    image: '/images/origin-collection/Lotus-Bed.jpg',
-    alt: 'Low upholstered bed on rounded wood legs in a pale bedroom with open shelving',
+    image: '/images/origin-collection/ORIGIN-52-6138-EDIT.jpg',
+    alt: 'A stacked burl wood side table, a pale wood sideboard and an upholstered chair outdoors beneath a timber gable frame hung with flowers',
   },
   '/close-collection': {
     page: pages.close,
