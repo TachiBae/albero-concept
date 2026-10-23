@@ -109,4 +109,5 @@ shape → Higgsfield mockup frames (templates only) → build → screenshot 144
 ## Git
 
 Commit after every phase with a clear message. Repo stays private because it holds Albero's photos.
+No attribution: no `Co-Authored-By` trailers in commit messages, and no "Generated with Claude Code" line in PR descriptions.
 Add `public/hero/source.mp4` to .gitignore if it's over 50 MB; commit the extracted frames instead.
