@@ -1,0 +1,27 @@
+---
+// Mobile only: "Book Your Visit" pinned to the bottom of the screen
+// (mockups/home/mobile.png). Hidden while the Visit section or the footer is on
+// screen, so the button never appears twice.
+import { bookVisit } from './lib/content';
+---
+
+<div class="fixed inset-x-0 bottom-0 z-40 border-t border-espresso bg-espresso md:hidden" data-visit-bar>
+  <a href={bookVisit.href} class="caps flex h-[56px] items-center justify-center text-paper">{bookVisit.text}</a>
+</div>
+
+<script>
+  const bar = document.querySelector<HTMLElement>('[data-visit-bar]');
+  const targets = document.querySelectorAll('[data-visit], footer');
+
+  if (bar && targets.length && 'IntersectionObserver' in window) {
+    const visible = new Set<Element>();
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) visible.add(entry.target);
+        else visible.delete(entry.target);
+      }
+      bar.hidden = visible.size > 0;
+    });
+    targets.forEach((t) => observer.observe(t));
+  }
+</script>

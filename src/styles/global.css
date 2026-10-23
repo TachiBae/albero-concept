@@ -1,1 +1,149 @@
 @import "tailwindcss";
+
+/* Palette taken from the hero photo (see mockups/home/SHAPE.md, "Visual direction"). */
+@theme {
+  --color-paper: #f4efe9;
+  --color-paper-deep: #ebe3d9;
+  --color-espresso: #221a16;
+  --color-ink-soft: #5e554e;
+  --color-line: #d9cfc4;
+  --color-stone: #8c857e;
+  --color-burl: #b07a52;
+  --color-burl-ink: #8a5a38;
+
+  --font-display: "Cormorant Garamond", "Cormorant", Georgia, "Times New Roman", serif;
+  --font-sans: "Jost", "Helvetica Neue", Arial, sans-serif;
+}
+
+:root {
+  --header-h: 60px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --header-h: 76px;
+  }
+}
+
+@layer base {
+  html {
+    scroll-padding-top: var(--header-h);
+  }
+
+  body {
+    @apply bg-paper font-sans text-espresso antialiased;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-burl);
+    outline-offset: 3px;
+  }
+}
+
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1320px;
+  padding-inline: 1.25rem;
+
+  @media (min-width: 768px) {
+    padding-inline: 3rem;
+  }
+
+  @media (min-width: 1024px) {
+    padding-inline: 5rem;
+  }
+}
+
+/* Small tracked caps used for labels, nav and buttons. */
+@utility caps {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+@utility display-xl {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.6rem, 6vw, 5.25rem);
+  line-height: 0.98;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+@utility display-lg {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+@utility btn-dark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding-inline: 1.5rem;
+  background: var(--color-espresso);
+  color: var(--color-paper);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  &:hover {
+    background: #3a2d26;
+  }
+}
+
+@utility btn-light {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding-inline: 1.5rem;
+  border: 1px solid color-mix(in srgb, var(--color-paper) 70%, transparent);
+  color: var(--color-paper);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  &:hover {
+    background: color-mix(in srgb, var(--color-paper) 12%, transparent);
+  }
+}
+
+@utility link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 44px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-color: var(--color-line);
+  text-underline-offset: 6px;
+
+  &:hover {
+    text-decoration-color: currentColor;
+  }
+}
+
+/* Visible marker for content that albero.ph doesn't have (CLAUDE.md content rules). */
+@utility todo {
+  display: inline-block;
+  padding: 0.15rem 0.45rem;
+  border: 1px dashed var(--color-burl-ink);
+  color: var(--color-burl-ink);
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}

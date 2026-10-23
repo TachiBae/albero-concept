@@ -1,18 +1,28 @@
 ---
-import '../styles/global.css';
+import BaseLayout from '../components/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import CereStory from '../components/CereStory.astro';
+import Collections from '../components/Collections.astro';
+import Visit from '../components/Visit.astro';
+import Custom from '../components/Custom.astro';
+import Footer from '../components/Footer.astro';
+import MobileVisitBar from '../components/MobileVisitBar.astro';
+import { firstSentence, pages, wordmark } from '../components/lib/content';
+
+const description = firstSentence(pages.storeHome.meta_description ?? '');
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Albero Concept</title>
-	</head>
-	<body class="bg-stone-50 text-stone-800">
-		<h1 class="p-8 text-2xl">Albero Concept: scaffold</h1>
-		<footer class="p-8 text-sm text-stone-500">Unofficial concept — content and photos © Albero</footer>
-	</body>
-</html>
+<BaseLayout title={`${wordmark} (unofficial concept)`} description={description}>
+  <link slot="head" rel="preload" as="image" href="/images/cere-collection/ABR_0067.jpg" fetchpriority="high" />
+  <Header />
+  <main>
+    <Hero />
+    <CereStory />
+    <Collections />
+    <Visit />
+    <Custom />
+  </main>
+  <Footer />
+  <MobileVisitBar />
+</BaseLayout>

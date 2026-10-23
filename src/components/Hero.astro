@@ -1,0 +1,52 @@
+---
+// Pinned ~300vh hero. For now the sticky stage holds the static Albero photo
+// and both overlays are visible (the same state prefers-reduced-motion will
+// get). The scroll-scrubbed frames and overlay timing come later (CLAUDE.md,
+// "Hero scroll animation"); the data-hero-* hooks are for that step.
+import Photo from './Photo.astro';
+import { button, firstSentence, pages, quote } from './lib/content';
+
+const headline = quote(pages.home, 'CREATED FOR YOUR LIFE/STYLE');
+const subline = firstSentence(pages.storeHome.meta_description ?? '');
+const cereLine = quote(pages.cere, 'A collection of individual pieces');
+const discoverCere = button(pages.home, 'DISCOVER CERE');
+---
+
+<section id="hero" class="relative h-[300vh]" data-hero>
+  <div class="sticky overflow-hidden" style="top: var(--header-h); height: calc(100svh - var(--header-h))" data-hero-stage>
+    <Photo
+      src="/images/cere-collection/ABR_0067.jpg"
+      alt="A Cere Collection living room: tan sofa, dark coffee table with a stone top, and a burl wood cabinet with arched glass doors"
+      class="absolute inset-0 h-full w-full object-cover"
+      loading="eager"
+      fetchpriority="high"
+    />
+
+    <div class="absolute inset-x-0 top-0 pt-[7vh] md:pt-[9vh]" data-hero-headline>
+      <div class="container-page">
+        <h1 class="display-xl max-w-[11ch]">{headline}</h1>
+        {subline && <p class="mt-5 max-w-[34ch] text-[15px] leading-relaxed text-ink-soft">{subline}</p>}
+      </div>
+    </div>
+
+    <div
+      class="absolute inset-x-0 bottom-0 bg-linear-to-t from-espresso/80 via-espresso/45 to-transparent pt-40 pb-[7vh]"
+      data-hero-cta
+    >
+      <div class="container-page text-paper">
+        <!-- Cere wordmark (transparent PNG with lots of padding), cropped to the script and inverted to light. -->
+        <div class="relative w-[13rem] overflow-hidden md:w-[16rem]" style="aspect-ratio: 660 / 125">
+          <img
+            src="/images/home/ALBBERO---Project-Logos-2-.png"
+            alt="Cere Collection"
+            class="absolute top-0 left-0 max-w-none invert"
+            style="width: 236.8%; margin-left: -69.7%; margin-top: -105.3%"
+            decoding="async"
+          />
+        </div>
+        <p class="mt-4 max-w-[36ch] text-[15px] leading-relaxed text-paper/90">{cereLine}</p>
+        <a href={discoverCere.href} class="btn-light mt-7">{discoverCere.text}</a>
+      </div>
+    </div>
+  </div>
+</section>
