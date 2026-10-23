@@ -49,7 +49,6 @@
     outline-offset: 3px;
   }
 
-  [data-hero-cta] :focus-visible,
   [data-visit-bar] :focus-visible {
     outline-color: var(--color-paper);
   }
