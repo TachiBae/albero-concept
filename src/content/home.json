@@ -1,0 +1,184 @@
+{
+  "slug": "home",
+  "source_url": "https://www.albero.ph/",
+  "final_url": "https://www.albero.ph/",
+  "redirected": false,
+  "title": "ALBERO",
+  "og_title": "ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "home-cere",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/home/ABR_2282.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/home/ALBBERO---Project-Logos-2-.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Inspired by the Queen of the Night, a flower that reveals its beauty only after dark, this collection explores the quiet significance of a single detail that can bring a whole composition together."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "As the flower completes the plant, the collection draws from the concept of a “missing piece.”"
+            },
+            {
+              "tag": "p",
+              "text": "The CERE is a collection for those who consider each furniture piece, ritual and emotion they incorporate into their space."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "DISCOVER CERE",
+          "href": "https://albero.ph/cere-collection"
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home/Copy-of-ABR_0449.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home/Ehwa-Chest-of-Drawers-2.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home/ABR_0587.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home/ABR_0447.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h3",
+              "text": "CREATED FOR YOUR LIFE/STYLE"
+            },
+            {
+              "tag": "p",
+              "text": "We see each space and furniture that we create as a personal statement that dovetails a shared vision and desired élan."
+            },
+            {
+              "tag": "p",
+              "text": "Customized pieces are an essential design element to any space. Establish a sense of harmony and order with furniture crafted with your needs in mind."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "CUSTOMIZE WITH ALBERO",
+          "href": "https://albero.ph/custom-furniture"
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "ABR_2282.jpg",
+      "path": "/images/home/ABR_2282.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/048362cf-4021-4a60-af00-94042da63c37/ABR_2282.jpg",
+      "alt": null,
+      "original_width": 2500,
+      "original_height": 1667,
+      "context": "home-cere image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 239732
+    },
+    {
+      "file": "ALBBERO---Project-Logos-2-.png",
+      "path": "/images/home/ALBBERO---Project-Logos-2-.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/b9176599-233f-4369-8a3b-a2042f644317/ALBBERO+-+Project+Logos+%282%29.png",
+      "alt": null,
+      "original_width": 1563,
+      "original_height": 1563,
+      "context": "home-cere image block",
+      "width": 1563,
+      "height": 1563,
+      "bytes": 9570
+    },
+    {
+      "file": "Copy-of-ABR_0449.jpg",
+      "path": "/images/home/Copy-of-ABR_0449.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792394745139-KB6HHW0TKNOZ3GT3O8EH/Copy+of+ABR_0449.jpg",
+      "alt": "Copy of ABR_0449.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "home-cere gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 645170
+    },
+    {
+      "file": "Ehwa-Chest-of-Drawers-2.jpg",
+      "path": "/images/home/Ehwa-Chest-of-Drawers-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792394773444-87R1BQGIX1E6R2OQBAUW/Ehwa+Chest+of+Drawers+2.jpg",
+      "alt": "Ehwa Chest of Drawers 2.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "home-cere gallery",
+      "width": 2500,
+      "height": 3872,
+      "bytes": 206350
+    },
+    {
+      "file": "ABR_0587.jpg",
+      "path": "/images/home/ABR_0587.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792394739031-6SENPMRW66A5THUZTXCM/ABR_0587.jpg",
+      "alt": "ABR_0587.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "home-cere gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 298292
+    },
+    {
+      "file": "ABR_0447.jpg",
+      "path": "/images/home/ABR_0447.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792395052934-ICGU6DJCCHLKXKFNYADK/ABR_0447.jpg",
+      "alt": "ABR_0447.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "home-cere gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 774504
+    }
+  ]
+}

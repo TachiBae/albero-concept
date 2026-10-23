@@ -1,0 +1,769 @@
+{
+  "slug": "yugencollection",
+  "source_url": "https://www.albero.ph/yugencollection",
+  "final_url": "https://www.albero.ph/yugencollection",
+  "redirected": false,
+  "title": "Yūgen Collection — ALBERO",
+  "og_title": "Yūgen Collection — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h2",
+              "text": "ALBERO"
+            },
+            {
+              "tag": "h1",
+              "text": "FURNITURE"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Haru Chair",
+              "description": null,
+              "image": "/images/yugencollection/Haru-Chair.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Border Accent Chair",
+              "description": null,
+              "image": "/images/yugencollection/Border-Accent-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Jin Chair",
+              "description": null,
+              "image": "/images/yugencollection/Jin-Chair.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Caden Chair",
+              "description": null,
+              "image": "/images/yugencollection/Caden-Chiar.jpg",
+              "link": null
+            },
+            {
+              "title": "Monet Accent Chair",
+              "description": null,
+              "image": "/images/yugencollection/Monet-Accent-Chair.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Asher Chair",
+              "description": null,
+              "image": "/images/yugencollection/Asher-Chair.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Hourglass Stool | Lilac",
+              "description": null,
+              "image": "/images/yugencollection/Hourglass-Stool-Lilac-.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Hourglass Stool | Black",
+              "description": null,
+              "image": "/images/yugencollection/Hourglass-Stool-Black-.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Hourglass Stool | Lime",
+              "description": null,
+              "image": "/images/yugencollection/Hourglass-Stool-Lime-.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Komo Love Seat",
+              "description": null,
+              "image": "/images/yugencollection/Komo-Love-Seat.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Moto Bar Cart",
+              "description": null,
+              "image": "/images/yugencollection/Moto-Bar-Cart.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Eclair Bench",
+              "description": null,
+              "image": "/images/yugencollection/Harris-Bench.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Elm Plant Stand",
+              "description": null,
+              "image": "/images/yugencollection/Elm-Plant-Stand.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Norm Magazine Side Table",
+              "description": null,
+              "image": "/images/yugencollection/Norm-Magazine-Side-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Block Side Table",
+              "description": null,
+              "image": "/images/yugencollection/Block-Side-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Folk Side Table",
+              "description": null,
+              "image": "/images/yugencollection/Folk-Side-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Cosmos Coffee Table | Round",
+              "description": null,
+              "image": "/images/yugencollection/Cosmos-Coffee-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Cosmos Coffee Table | Oval",
+              "description": null,
+              "image": "/images/yugencollection/Cosmos-Coffee-Table-Black-.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Tyler Desk",
+              "description": null,
+              "image": "/images/yugencollection/Tyler-Desk-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Kio Table",
+              "description": null,
+              "image": "/images/yugencollection/Kio-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Lune Dining Table",
+              "description": null,
+              "image": "/images/yugencollection/Lune-Dining-Table.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Stack Dresser & Shelf",
+              "description": null,
+              "image": "/images/yugencollection/Stack-Dresser-Shelf-1.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Stack Dresser & Shelf",
+              "description": null,
+              "image": "/images/yugencollection/Stack-Dresser-Shelf-2.jpg",
+              "link": "http://albero.ph/message"
+            },
+            {
+              "title": "Elm Plant Stand | Low",
+              "description": null,
+              "image": "/images/yugencollection/Elm-Plant-Stand-Short-.jpg",
+              "link": "http://albero.ph/message"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Customize Your Own",
+          "href": "https://albero.ph/message"
+        },
+        {
+          "type": "button",
+          "text": "Request Quotation",
+          "href": "https://albero.ph/message"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Haru Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Haru-Chair.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Border Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Border-Accent-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Jin Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Jin-Chair.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Caden Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Caden-Chiar.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Monet Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Monet-Accent-Chair.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Asher Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Asher-Chair.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Hourglass Stool | Lilac",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Hourglass-Stool-Lilac-.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Hourglass Stool | Black",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Hourglass-Stool-Black-.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Hourglass Stool | Lime",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Hourglass-Stool-Lime-.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Komo Love Seat",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Komo-Love-Seat.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Moto Bar Cart",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Moto-Bar-Cart.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Eclair Bench",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Harris-Bench.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Elm Plant Stand",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Elm-Plant-Stand.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Norm Magazine Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Norm-Magazine-Side-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Block Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Block-Side-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Folk Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Folk-Side-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Cosmos Coffee Table | Round",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Cosmos-Coffee-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Cosmos Coffee Table | Oval",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Cosmos-Coffee-Table-Black-.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Tyler Desk",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Tyler-Desk-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Kio Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Kio-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Lune Dining Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Lune-Dining-Table.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Stack Dresser & Shelf",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Stack-Dresser-Shelf-1.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Stack Dresser & Shelf",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Stack-Dresser-Shelf-2.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    },
+    {
+      "source": "collection gallery",
+      "name": "Elm Plant Stand | Low",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/yugencollection/Elm-Plant-Stand-Short-.jpg"
+      ],
+      "link": "http://albero.ph/message"
+    }
+  ],
+  "images": [
+    {
+      "file": "Haru-Chair.jpg",
+      "path": "/images/yugencollection/Haru-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569329592-FUHBNDJ3186TVC6GF2HT/Haru+Chair.jpg",
+      "alt": "Haru Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 104652
+    },
+    {
+      "file": "Border-Accent-Chair.jpg",
+      "path": "/images/yugencollection/Border-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569296708-JNQ0B6ALKW3BD1L3YV6M/Border+Accent++Chair.jpg",
+      "alt": "Border Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 248036
+    },
+    {
+      "file": "Jin-Chair.jpg",
+      "path": "/images/yugencollection/Jin-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569342590-M8EJTU22QNH1HJZ74XX5/Jin+Chair.jpg",
+      "alt": "Jin Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 99278
+    },
+    {
+      "file": "Caden-Chiar.jpg",
+      "path": "/images/yugencollection/Caden-Chiar.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569296457-I8FX8J99268V2CM7C2RL/Caden+Chiar.jpg",
+      "alt": "Caden Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 103450
+    },
+    {
+      "file": "Monet-Accent-Chair.jpg",
+      "path": "/images/yugencollection/Monet-Accent-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569360405-5OA19FEDOMANX4TMNSX4/Monet+Accent+Chair.jpg",
+      "alt": "Monet Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 221722
+    },
+    {
+      "file": "Asher-Chair.jpg",
+      "path": "/images/yugencollection/Asher-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569286261-3RU08HS94OQDXWVQYC7R/Asher+Chair.jpg",
+      "alt": "Asher Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 245360
+    },
+    {
+      "file": "Hourglass-Stool-Lilac-.jpg",
+      "path": "/images/yugencollection/Hourglass-Stool-Lilac-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569335595-IWF3B1AAJZJ9URWRVZIU/Hourglass+Stool+%28Lilac%29+.jpg",
+      "alt": "Hourglass Stool | Lilac",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 35610
+    },
+    {
+      "file": "Hourglass-Stool-Black-.jpg",
+      "path": "/images/yugencollection/Hourglass-Stool-Black-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569330775-N8O86LH0IXNN9O249F4A/Hourglass+Stool+%28Black%29+.jpg",
+      "alt": "Hourglass Stool | Black",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 41834
+    },
+    {
+      "file": "Hourglass-Stool-Lime-.jpg",
+      "path": "/images/yugencollection/Hourglass-Stool-Lime-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569336556-IR7NPDMK5T4P7NI34I4K/Hourglass+Stool+%28Lime%29+.jpg",
+      "alt": "Hourglass Stool | Lime",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 34346
+    },
+    {
+      "file": "Komo-Love-Seat.jpg",
+      "path": "/images/yugencollection/Komo-Love-Seat.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569350296-6LBJWL9YLN3SUXAP41TR/Komo+Love+Seat.jpg",
+      "alt": "Komo Love Seat",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 64352
+    },
+    {
+      "file": "Moto-Bar-Cart.jpg",
+      "path": "/images/yugencollection/Moto-Bar-Cart.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569359288-DQ9DM6JP4IYS2HML1IFU/Moto+Bar+Cart.jpg",
+      "alt": "Moto Bar Cart",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 69062
+    },
+    {
+      "file": "Harris-Bench.jpg",
+      "path": "/images/yugencollection/Harris-Bench.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569325246-QIPNOQYGPWYOJPJKASF3/Harris+Bench.jpg",
+      "alt": "Eclair Bench",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 108256
+    },
+    {
+      "file": "Elm-Plant-Stand.jpg",
+      "path": "/images/yugencollection/Elm-Plant-Stand.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569318161-6R2VZCFL1YSFEUFD5JPL/Elm+Plant+Stand.jpg",
+      "alt": "Elm Plant Stand",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 133464
+    },
+    {
+      "file": "Norm-Magazine-Side-Table.jpg",
+      "path": "/images/yugencollection/Norm-Magazine-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569366118-4FFKPP5UH8QL00V2X4BV/Norm+Magazine+Side+Table.jpg",
+      "alt": "Norm Magazine Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 83014
+    },
+    {
+      "file": "Block-Side-Table.jpg",
+      "path": "/images/yugencollection/Block-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569287215-2KLPBLA1T8TA4DMRZULW/Block+Side+Table.jpg",
+      "alt": "Block Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 163990
+    },
+    {
+      "file": "Folk-Side-Table.jpg",
+      "path": "/images/yugencollection/Folk-Side-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569322060-8HGSUCS9SN9MZENMPUSI/Folk+Side+Table.jpg",
+      "alt": "Folk Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 78748
+    },
+    {
+      "file": "Cosmos-Coffee-Table.jpg",
+      "path": "/images/yugencollection/Cosmos-Coffee-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569303386-YIUMQDGZGDETW6MXSFA1/Cosmos+Coffee+Table.jpg",
+      "alt": "Cosmos Coffee Table | Round",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 61752
+    },
+    {
+      "file": "Cosmos-Coffee-Table-Black-.jpg",
+      "path": "/images/yugencollection/Cosmos-Coffee-Table-Black-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569302409-STV9D793SB08W1LUWPFD/Cosmos+Coffee+Table+%28Black%29.jpg",
+      "alt": "Cosmos Coffee Table | Oval",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 52376
+    },
+    {
+      "file": "Tyler-Desk-Table.jpg",
+      "path": "/images/yugencollection/Tyler-Desk-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569376840-O6I1T9P9XWIWHVUXW2W7/Tyler+Desk+Table.jpg",
+      "alt": "Tyler Desk",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 74678
+    },
+    {
+      "file": "Kio-Table.jpg",
+      "path": "/images/yugencollection/Kio-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569343946-7YMO67UY7ZHOUPFEO0FY/Kio+Table.jpg",
+      "alt": "Kio Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 75572
+    },
+    {
+      "file": "Lune-Dining-Table.jpg",
+      "path": "/images/yugencollection/Lune-Dining-Table.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569351121-D2BXREBP63JBNSSIA68N/Lune+Dining+Table.jpg",
+      "alt": "Lune Dining Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 73354
+    },
+    {
+      "file": "Stack-Dresser-Shelf-1.jpg",
+      "path": "/images/yugencollection/Stack-Dresser-Shelf-1.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607569371290-3KWCJUBMRMHLX2R68JP9/Stack+Dresser%3AShelf+1.jpg",
+      "alt": "Stack Dresser &amp; Shelf",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 155242
+    },
+    {
+      "file": "Stack-Dresser-Shelf-2.jpg",
+      "path": "/images/yugencollection/Stack-Dresser-Shelf-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607572256719-BK9NETOZ528CFAAE3RPH/Stack+Dresser%3AShelf+2.jpg",
+      "alt": "Stack Dresser &amp; Shelf",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2077,
+      "height": 2596,
+      "bytes": 62014
+    },
+    {
+      "file": "Elm-Plant-Stand-Short-.jpg",
+      "path": "/images/yugencollection/Elm-Plant-Stand-Short-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607570511850-EB9X3VOI32AV6V5AW9NF/Elm+Plant+Stand+%28Short%29.jpg",
+      "alt": "Elm Plant Stand | Low",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 99158
+    }
+  ]
+}

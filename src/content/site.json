@@ -1,0 +1,125 @@
+{
+  "nav": [
+    {
+      "text": "Home",
+      "href": "/"
+    },
+    {
+      "text": "Collections",
+      "href": "/Collections",
+      "children": [
+        {
+          "text": "Cere Collection",
+          "href": "/cere-collection"
+        },
+        {
+          "text": "2nd Haus",
+          "href": "/2ndhaus-collection"
+        },
+        {
+          "text": "En Gold",
+          "href": "/engold"
+        },
+        {
+          "text": "Insilence Collection",
+          "href": "/insilence-collection"
+        },
+        {
+          "text": "Amust Collection",
+          "href": "/amust-collection"
+        },
+        {
+          "text": "Origin Collection",
+          "href": "/origin-collection"
+        },
+        {
+          "text": "Close Collection",
+          "href": "/close-collection"
+        },
+        {
+          "text": "Yūgen Collection",
+          "href": "/yugencollection"
+        },
+        {
+          "text": "Hygge Collection",
+          "href": "/hygge-collection"
+        }
+      ]
+    },
+    {
+      "text": "Custom",
+      "href": "/custom-furniture"
+    },
+    {
+      "text": "Store",
+      "href": "/store",
+      "children": [
+        {
+          "text": "Home - 2nd Haus",
+          "href": "/home-2nd-haus"
+        },
+        {
+          "text": "Candles",
+          "href": "/candles"
+        },
+        {
+          "text": "Furniture",
+          "href": "/store-furniture"
+        },
+        {
+          "text": "Pillows",
+          "href": "/store-pillows"
+        }
+      ]
+    },
+    {
+      "text": "At Home",
+      "href": "/lifestyle",
+      "children": [
+        {
+          "text": "with FP",
+          "href": "/with-fp"
+        },
+        {
+          "text": "with Leyenne",
+          "href": "/alberoathome-ley"
+        }
+      ]
+    },
+    {
+      "text": "About",
+      "href": "/about",
+      "children": [
+        {
+          "text": "Our Story",
+          "href": "/our-story"
+        },
+        {
+          "text": "Inquire",
+          "href": "/message"
+        },
+        {
+          "text": "Book Your Visit",
+          "href": "/message-1"
+        }
+      ]
+    }
+  ],
+  "footer_text": [
+    "alberoph@gmail.com",
+    "Hours",
+    "contact@albero.ph | +63 9173028406",
+    "facebook",
+    ".",
+    "instagram",
+    "|",
+    "youtube",
+    "© ALBERO (All Rights reserved)"
+  ],
+  "social_links": [
+    "https://www.facebook.com/alberophilippines/",
+    "https://www.instagram.com/alberoph",
+    "https://www.youtube.com/channel/UCfofDqxp-d9_R-NIJjgwQ6Q?view_as=subscriber",
+    "mailto:alberoph@gmail.com"
+  ]
+}

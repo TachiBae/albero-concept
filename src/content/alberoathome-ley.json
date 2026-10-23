@@ -1,0 +1,216 @@
+{
+  "slug": "alberoathome-ley",
+  "source_url": "https://www.albero.ph/alberoathome-ley",
+  "final_url": "https://www.albero.ph/alberoathome-ley",
+  "redirected": false,
+  "title": "with Leyenne — ALBERO",
+  "og_title": "with Leyenne — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "ALBERO AT HOME"
+            },
+            {
+              "tag": "h3",
+              "text": "with Leyenne"
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/alberoathome-ley/image-asset.jpeg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "A multidisciplinary creative, Leyenne, learned to embrace design inspired by three dimensional spaces. Growing up in a family of furniture and interior designers, she continues to educate her innate eye for design through the beauty of the mundane. With Albero, she shares how “good design is invisible…it provides you with a pleasant, almost seamless experience that transcends sight. It compels you, and you willingly choose to bask in it.”"
+            },
+            {
+              "tag": "h3",
+              "text": "Q&A with Leyenne"
+            },
+            {
+              "tag": "p",
+              "text": "What inspired you to be part of the creative industry?"
+            },
+            {
+              "tag": "p",
+              "text": "Since I was younger, I have always found beauty and meaning in arts and design. I grew up surrounded by talented furniture and interior designers who inspired me to nurture my creativity and encouraged me to pursue it, which is why I am currently taking up BFA Information Design in university. Through my course and all the other experiences that came with it, I realized the immense power that art and design hold; they can provoke emotions, foster connections, tell stories, provide innovative solutions, and more. These are but a few things that I hope to do throughout my journey as a creative."
+            },
+            {
+              "tag": "p",
+              "text": "What would you say inspires your design philosophy?"
+            },
+            {
+              "tag": "p",
+              "text": "When it comes to art and design, my primary source of inspiration is my curiosity about the things of everyday life. My eyes would light up whenever I see patterns, palettes, shapes, and textures, even in the most mundane moments. With this, I would say that various fields influence my works - from fashion to interiors, architecture, and graphic design. I love documenting whatever I find interesting, saving them for future reference, then mixing and matching to build on my ideas."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/alberoathome-ley/LANCE_LEY-76.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/alberoathome-ley/LANCE_LEY-73.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "How do you define good design?"
+            },
+            {
+              "tag": "p",
+              "text": "One of my professors told me that good design is invisible, and I realized this to be true. When something is well-designed, it provides you with a pleasant, almost seamless experience that transcends sight. It compels you, and you willingly choose to bask in it."
+            },
+            {
+              "tag": "p",
+              "text": "In what place would you like to be in the world?"
+            },
+            {
+              "tag": "p",
+              "text": "If there is any place I prefer to be, it would be Italy. For Christmas, I received a book entitled Capri Dolce Vita by ASSOULINE that promotes the charming Italian island through a series of photos. Looking through it makes me want to jump into the pages to walk through its streets, experience its culture, and take inspiration from its enchanting views."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/alberoathome-ley/Screen-Shot-2022-02-25-at-11.54.33-PM.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "What do you think is the most important thing about one’s personal space?"
+            },
+            {
+              "tag": "p",
+              "text": "To me, the most important thing about one’s personal space is that it makes you feel comfortable and safe. It is a place where you can freely express your thoughts, emotions, and creativity. I find it essential to connect with your space to better reconnect with yourself. In my room, I feel like I am my genuine self."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/alberoathome-ley/LANCE_LEY-71.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "We see each space and furniture that we create as a personal statement that dovetails a shared vision and desired élan."
+            },
+            {
+              "tag": "p",
+              "text": "Customized pieces are an essential design element to any space. Establish a sense of harmony and order with furniture crafted with your needs in mind."
+            },
+            {
+              "tag": "h2",
+              "text": "Leyenne in her Albero home"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Create your Space with Albero",
+          "href": ""
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "image-asset.jpeg",
+      "path": "/images/alberoathome-ley/image-asset.jpeg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/a8ced09f-e4c7-464a-b630-49ddd69aecdd/image-asset.jpeg",
+      "alt": null,
+      "original_width": 3600,
+      "original_height": 2400,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 251734
+    },
+    {
+      "file": "LANCE_LEY-76.jpg",
+      "path": "/images/alberoathome-ley/LANCE_LEY-76.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1645804222929-V3E9AABTN8N4NPUPWN2Q/LANCE_LEY-76.jpg",
+      "alt": "LANCE_LEY-76.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 1743586
+    },
+    {
+      "file": "LANCE_LEY-73.jpg",
+      "path": "/images/alberoathome-ley/LANCE_LEY-73.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1645804221351-J55JLNWX2MS1E2FA1XMM/LANCE_LEY-73.jpg",
+      "alt": "LANCE_LEY-73.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3600,
+      "bytes": 1544760
+    },
+    {
+      "file": "Screen-Shot-2022-02-25-at-11.54.33-PM.png",
+      "path": "/images/alberoathome-ley/Screen-Shot-2022-02-25-at-11.54.33-PM.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/9a481049-bc6f-4381-9515-b20b395c6c95/Screen+Shot+2022-02-25+at+11.54.33+PM.png",
+      "alt": null,
+      "original_width": 2066,
+      "original_height": 1534,
+      "context": "section-1 image block",
+      "width": 2066,
+      "height": 1534,
+      "bytes": 3043564
+    },
+    {
+      "file": "LANCE_LEY-71.jpg",
+      "path": "/images/alberoathome-ley/LANCE_LEY-71.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/89465f3c-737a-447c-9c9d-5c6b588337b1/LANCE_LEY-71.jpg",
+      "alt": null,
+      "original_width": 3600,
+      "original_height": 2400,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 230462
+    }
+  ]
+}

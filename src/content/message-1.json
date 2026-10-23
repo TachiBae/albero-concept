@@ -1,0 +1,84 @@
+{
+  "slug": "message-1",
+  "source_url": "https://www.albero.ph/message-1",
+  "final_url": "https://www.albero.ph/message-1",
+  "redirected": false,
+  "title": "Book Your Visit — ALBERO",
+  "og_title": "Book Your Visit — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/message-1/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h3",
+              "text": "BOOK your visit:"
+            },
+            {
+              "tag": "p",
+              "text": "ALBERO HQ:"
+            },
+            {
+              "tag": "p",
+              "text": "2-1 Magalang Avenue, Barangay Pandan, Angeles City, Pampanga"
+            },
+            {
+              "tag": "p",
+              "text": "contact@albero.ph"
+            },
+            {
+              "tag": "p",
+              "text": "+639173028406"
+            },
+            {
+              "tag": "p",
+              "text": "Facebook: fb.com/alberophilippines",
+              "links": [
+                {
+                  "text": "fb.com/alberophilippines",
+                  "href": "https://www.facebook.com/alberophilippines/"
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "text": "Instagram: @alberoph",
+              "links": [
+                {
+                  "text": "@alberoph",
+                  "href": "https://www.instagram.com/alberoph/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "path": "/images/message-1/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/2dcafaaa-0b6d-469d-a4c2-be27a7d07a87/CALBEROPIFS25INSILENCE-4041-EDIT.jpg",
+      "alt": null,
+      "original_width": 6400,
+      "original_height": 4267,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 343082
+    }
+  ]
+}

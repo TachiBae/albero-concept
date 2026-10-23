@@ -1,0 +1,483 @@
+{
+  "slug": "cere-collection",
+  "source_url": "https://www.albero.ph/cere-collection",
+  "final_url": "https://www.albero.ph/cere-collection",
+  "redirected": false,
+  "title": "Cere Collection — ALBERO",
+  "og_title": "Cere Collection — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/cere-collection/5.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "Cere Collection"
+            },
+            {
+              "tag": "p",
+              "text": "A study of form, material, and the relationships between objects and the spaces they inhabit."
+            },
+            {
+              "tag": "p",
+              "text": "From seating and tables to cabinets, lighting, and smaller objects, each piece carries its own presence while remaining part of a larger composition."
+            },
+            {
+              "tag": "p",
+              "text": "Dark wood, patinated surfaces, stone, black lacquer, and considered details bring depth and contrast to the collection."
+            },
+            {
+              "tag": "p",
+              "text": "Cere was designed with the belief that a space is shaped not by a single statement, but by how each element comes together."
+            },
+            {
+              "tag": "p",
+              "text": "A collection of individual pieces, thoughtfully considered as part of a whole."
+            },
+            {
+              "tag": "h2",
+              "text": ":"
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/cere-collection/6.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Discover the CERE catalog here:"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Clo Sofa",
+              "description": null,
+              "image": "/images/cere-collection/Clo-Sofa-2.jpg",
+              "link": null
+            },
+            {
+              "title": "San Coffee Table",
+              "description": null,
+              "image": "/images/cere-collection/San-Coffee-Table-2-.jpg",
+              "link": null
+            },
+            {
+              "title": "Bowe Accent Chair",
+              "description": null,
+              "image": "/images/cere-collection/Bowe-Accent-Chair_.jpg",
+              "link": null
+            },
+            {
+              "title": "Terrace Side Table",
+              "description": null,
+              "image": "/images/cere-collection/Terrace-Side-Table-1-.jpg",
+              "link": null
+            },
+            {
+              "title": "Song Cabinet",
+              "description": null,
+              "image": "/images/cere-collection/Song-Cabinet.jpg",
+              "link": null
+            },
+            {
+              "title": "Ehwa Chest of Drawers",
+              "description": null,
+              "image": "/images/cere-collection/Ehwa-Chest-of-Drawers.jpg",
+              "link": null
+            },
+            {
+              "title": "Oren Chair",
+              "description": null,
+              "image": "/images/cere-collection/Oren-Chair-1-.jpg",
+              "link": null
+            },
+            {
+              "title": "Oren Desk and Chair",
+              "description": null,
+              "image": "/images/cere-collection/Oren-Desk-and-Chair.jpg",
+              "link": null
+            },
+            {
+              "title": "Oren Desk",
+              "description": null,
+              "image": "/images/cere-collection/Oren-Desk-5-.jpg",
+              "link": null
+            },
+            {
+              "title": "Temple Roof Display in Ash",
+              "description": null,
+              "image": "/images/cere-collection/Temple-Roof-Display-1.jpg",
+              "link": null
+            },
+            {
+              "title": "Temple Roof Display in Log",
+              "description": null,
+              "image": "/images/cere-collection/Temple-Roof-Display-Shelf-3.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/cere-collection/ABR_0067.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "button",
+          "text": "The Cere At Home",
+          "href": "https://www.instagram.com/alberoph"
+        },
+        {
+          "type": "button",
+          "text": "Inquire about the Collection",
+          "href": "/message"
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Create a home for the pieces as is, or alter them to make them even more personal."
+            },
+            {
+              "tag": "p",
+              "text": "From finish, fabric to scale – discover the possibilities with Albero."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Schedule a Design Consultation",
+          "href": "/message"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Clo Sofa",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Clo-Sofa-2.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "San Coffee Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/San-Coffee-Table-2-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Bowe Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Bowe-Accent-Chair_.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Terrace Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Terrace-Side-Table-1-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Song Cabinet",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Song-Cabinet.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Ehwa Chest of Drawers",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Ehwa-Chest-of-Drawers.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Oren Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Oren-Chair-1-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Oren Desk and Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Oren-Desk-and-Chair.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Oren Desk",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Oren-Desk-5-.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Temple Roof Display in Ash",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Temple-Roof-Display-1.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Temple Roof Display in Log",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/cere-collection/Temple-Roof-Display-Shelf-3.jpg"
+      ],
+      "link": null
+    }
+  ],
+  "images": [
+    {
+      "file": "5.png",
+      "path": "/images/cere-collection/5.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/fa9d19da-03ab-4397-9ba9-6e0c39448c48/5.png",
+      "alt": null,
+      "original_width": 2160,
+      "original_height": 2700,
+      "context": "section-1 image block",
+      "width": 2160,
+      "height": 2700,
+      "bytes": 2036906
+    },
+    {
+      "file": "6.png",
+      "path": "/images/cere-collection/6.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/66953b3a-76ab-482f-885e-cdf379ed368e/6.png",
+      "alt": null,
+      "original_width": 2160,
+      "original_height": 2700,
+      "context": "section-1 image block",
+      "width": 2160,
+      "height": 2700,
+      "bytes": 6063766
+    },
+    {
+      "file": "Clo-Sofa-2.jpg",
+      "path": "/images/cere-collection/Clo-Sofa-2.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424121551-QMUBZ6QEXTNM2177XLZE/Clo+Sofa+2.jpg",
+      "alt": "Clo Sofa",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3801,
+      "bytes": 174008
+    },
+    {
+      "file": "San-Coffee-Table-2-.jpg",
+      "path": "/images/cere-collection/San-Coffee-Table-2-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424131105-2YEFMJBW0ALEKSHA16UT/San+Coffee+Table%282%29.jpg",
+      "alt": "San Coffee Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3827,
+      "bytes": 167620
+    },
+    {
+      "file": "Bowe-Accent-Chair_.jpg",
+      "path": "/images/cere-collection/Bowe-Accent-Chair_.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424121652-KN3QIH4OKIB6RZEJ7P7W/Bowe+Accent+Chair_.jpg",
+      "alt": "Bowe Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 318158
+    },
+    {
+      "file": "Terrace-Side-Table-1-.jpg",
+      "path": "/images/cere-collection/Terrace-Side-Table-1-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424153990-R3XYIEU64OC5OMCJAOB7/Terrace+Side+Table%281%29.jpg",
+      "alt": "Terrace Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 208676
+    },
+    {
+      "file": "Song-Cabinet.jpg",
+      "path": "/images/cere-collection/Song-Cabinet.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424135730-IWQ29NL0TCMFAGRYPO4L/Song+Cabinet.jpg",
+      "alt": "Song Cabinet",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 343150
+    },
+    {
+      "file": "Ehwa-Chest-of-Drawers.jpg",
+      "path": "/images/cere-collection/Ehwa-Chest-of-Drawers.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424123916-OSRA6DP8SH1ZZOD8NC0Z/Ehwa+Chest+of+Drawers.jpg",
+      "alt": "Ehwa Chest of Drawers",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3706,
+      "bytes": 194294
+    },
+    {
+      "file": "Oren-Chair-1-.jpg",
+      "path": "/images/cere-collection/Oren-Chair-1-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424126316-XEGPKTQZ5Y83WO6AM9O2/Oren+Chair%281%29.jpg",
+      "alt": "Oren Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 177664
+    },
+    {
+      "file": "Oren-Desk-and-Chair.jpg",
+      "path": "/images/cere-collection/Oren-Desk-and-Chair.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424126804-JG1K0BMFGPQV54SOBC81/Oren+Desk+and+Chair.jpg",
+      "alt": "Oren Desk and Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 208458
+    },
+    {
+      "file": "Oren-Desk-5-.jpg",
+      "path": "/images/cere-collection/Oren-Desk-5-.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424130864-1BHUI5PZQ116CYR4OZP0/Oren+Desk%285%29.jpg",
+      "alt": "Oren Desk",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 195366
+    },
+    {
+      "file": "Temple-Roof-Display-1.jpg",
+      "path": "/images/cere-collection/Temple-Roof-Display-1.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424137459-06OE7AVZEO30FL06HC1Z/Temple+Roof+Display+1.jpg",
+      "alt": "Temple Roof Display in Ash",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3835,
+      "bytes": 327760
+    },
+    {
+      "file": "Temple-Roof-Display-Shelf-3.jpg",
+      "path": "/images/cere-collection/Temple-Roof-Display-Shelf-3.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1792424150799-WGEPJL8PTWVX5OA1BCHM/Temple+Roof+Display+Shelf+3.jpg",
+      "alt": "Temple Roof Display in Log",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 342710
+    },
+    {
+      "file": "ABR_0067.jpg",
+      "path": "/images/cere-collection/ABR_0067.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/a5e29903-7f92-4423-acca-ea88512dffc4/ABR_0067.jpg",
+      "alt": null,
+      "original_width": 2200,
+      "original_height": 1383,
+      "context": "section-1 image block",
+      "width": 2200,
+      "height": 1383,
+      "bytes": 218712
+    }
+  ]
+}

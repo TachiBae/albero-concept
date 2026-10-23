@@ -1,0 +1,283 @@
+{
+  "slug": "with-fp",
+  "source_url": "https://www.albero.ph/with-fp",
+  "final_url": "https://www.albero.ph/with-fp",
+  "redirected": false,
+  "title": "with FP — ALBERO",
+  "og_title": "with FP — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "ALBERO AT HOME"
+            },
+            {
+              "tag": "h3",
+              "text": "with FP"
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/with-fp/ABR_6206.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Renowned fashion designer Frederick Policarpio walks us through his ideals, interior design vision, and how the environment both provides his source of inspiration while also being a home for comfort."
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6077.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6088.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "“It was always a dream of mine to transform this space into one that echoed my design ideals, extending beyond my work in fashion to shape an environment that feels both personal and timeless.”"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6148.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6173.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6201.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6210.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6214.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6235.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6246.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/with-fp/ABR_6249.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "The space draws from the bespoke nature of the FP brand, with refined craftsmanship, structured silhouettes, and an understated elegance. “"
+            },
+            {
+              "tag": "h2",
+              "text": "FP in His Albero home"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "Discover More of FP At Home",
+          "href": "https://www.instagram.com/reel/DFhqZnqTQQZ/"
+        },
+        {
+          "type": "button",
+          "text": "Create your Space with Albero",
+          "href": ""
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "ABR_6206.jpg",
+      "path": "/images/with-fp/ABR_6206.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/be524ccf-9a0c-4303-9f58-058dd05b7a53/ABR_6206.jpg",
+      "alt": null,
+      "original_width": 4220,
+      "original_height": 6330,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 404214
+    },
+    {
+      "file": "ABR_6077.jpg",
+      "path": "/images/with-fp/ABR_6077.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743752921902-6XEIOOIWKZRMTF0HE4DP/ABR_6077.jpg",
+      "alt": "ABR_6077.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 567436
+    },
+    {
+      "file": "ABR_6088.jpg",
+      "path": "/images/with-fp/ABR_6088.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1743752901294-Z8GB5YWRSUVUR2V7K5XW/ABR_6088.jpg",
+      "alt": "ABR_6088.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 240420
+    },
+    {
+      "file": "ABR_6148.jpg",
+      "path": "/images/with-fp/ABR_6148.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116420762-HRMKYF8350YWJ7ZD1WRU/ABR_6148.jpg",
+      "alt": "ABR_6148.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 622964
+    },
+    {
+      "file": "ABR_6173.jpg",
+      "path": "/images/with-fp/ABR_6173.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116379618-U1LTW535672YKT4G5BER/ABR_6173.jpg",
+      "alt": "ABR_6173.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 501802
+    },
+    {
+      "file": "ABR_6201.jpg",
+      "path": "/images/with-fp/ABR_6201.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116564674-MKIPYLF9X8GJ2N54D8R3/ABR_6201.jpg",
+      "alt": "ABR_6201.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 280842
+    },
+    {
+      "file": "ABR_6210.jpg",
+      "path": "/images/with-fp/ABR_6210.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116617713-0YPFA6ACHKVP8OYOAQM2/ABR_6210.jpg",
+      "alt": "ABR_6210.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 457366
+    },
+    {
+      "file": "ABR_6214.jpg",
+      "path": "/images/with-fp/ABR_6214.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116823834-OOSEF9DFJAM8H5J7UO11/ABR_6214.jpg",
+      "alt": "ABR_6214.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 432468
+    },
+    {
+      "file": "ABR_6235.jpg",
+      "path": "/images/with-fp/ABR_6235.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744116871507-CLX2U8IAVN3CC5BVFOBW/ABR_6235.jpg",
+      "alt": "ABR_6235.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 575498
+    },
+    {
+      "file": "ABR_6246.jpg",
+      "path": "/images/with-fp/ABR_6246.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744117007568-DPFDKVEY8W0B4Z2SPR2S/ABR_6246.jpg",
+      "alt": "ABR_6246.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 842906
+    },
+    {
+      "file": "ABR_6249.jpg",
+      "path": "/images/with-fp/ABR_6249.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1744117008957-FL8DOUWEDNFQGB9MFDI4/ABR_6249.jpg",
+      "alt": "ABR_6249.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 199454
+    }
+  ]
+}

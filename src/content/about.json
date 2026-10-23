@@ -1,0 +1,137 @@
+{
+  "slug": "about",
+  "source_url": "https://www.albero.ph/about",
+  "final_url": "https://www.albero.ph/our-story",
+  "redirected": true,
+  "title": "Our Story — ALBERO",
+  "og_title": "Our Story — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/about/Albero---Y-gen-Collection.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "ABOUT ALBERO"
+            },
+            {
+              "tag": "p",
+              "text": "ALBERO is a furniture manufacturer and retailer creating aesthetic statement pieces that merge quality, functionality and style. Each piece has its own purpose. Rooted by the past, Albero develops timeless custom pieces inspired by several perspectives of design. The brand’s design ethos is characterized by clean lines, subtle curves, and the beauty of the natural wood. Our exclusive in-house designers, together with a team of high-skilled artisans, value creativity and quality – the quintessence of fine furniture craftsmanship."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/about/ORIGIN-38-6540-EDIT.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h2",
+              "text": "MATERIALS"
+            },
+            {
+              "tag": "p",
+              "text": "Wood is a living element that captures the fervor of a home. Albero breathes life into living by utilizing sustainably sourced imported wood as its primary material such as Walnut, Ash, and Beech wood. This, incorporated with different elements, bring life to our creations."
+            },
+            {
+              "tag": "p",
+              "text": "Wood is then finished with non-pollutant water-based varnish as surface treatment to protect the wood without damaging its natural essence, ensuring our commitment to the environment and to you as well."
+            },
+            {
+              "tag": "p",
+              "text": "We choose the right materials to prevent compromising quality and to provide the clients the standard that they deserve - creating value for money."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h2",
+              "text": "CRAFTSMANSHIP"
+            },
+            {
+              "tag": "p",
+              "text": "Highly-skilled local artisans work hand-in-hand with our creative in-house designers to convey our message through excellently crafted pieces. On top of hard work and dedication, every piece of furniture is executed with passion."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h2",
+              "text": "CUSTOMER SERVICE"
+            },
+            {
+              "tag": "p",
+              "text": "From the first purchase to years after, Albero is committed to create value and relationships through our products and services and give nothing but the best to our clientele. After-sales services and care are offered not only to secure trust, but to ensure that every Albero piece at your home stays ageless as years pass by."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/about/6392-SAMPLE.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "Albero---Y-gen-Collection.jpg",
+      "path": "/images/about/Albero---Y-gen-Collection.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1607567324266-BCH752SOM2QDD7ZA3GU2/Albero+-++Y%C5%ABgen+Collection",
+      "alt": null,
+      "original_width": 2500,
+      "original_height": 1617,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1617,
+      "bytes": 2854558
+    },
+    {
+      "file": "ORIGIN-38-6540-EDIT.jpg",
+      "path": "/images/about/ORIGIN-38-6540-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/06aedb1a-f6f5-4391-9645-e230bcdada23/ORIGIN-38-6540-EDIT.jpg",
+      "alt": null,
+      "original_width": 7200,
+      "original_height": 4800,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 679572
+    },
+    {
+      "file": "6392-SAMPLE.jpg",
+      "path": "/images/about/6392-SAMPLE.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/bc9a9a4e-3e71-4040-a6b5-810c308e1aec/6392-SAMPLE.jpg",
+      "alt": null,
+      "original_width": 1600,
+      "original_height": 2400,
+      "context": "section-1 image block",
+      "width": 1600,
+      "height": 2400,
+      "bytes": 393074
+    }
+  ]
+}

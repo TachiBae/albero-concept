@@ -1,0 +1,176 @@
+{
+  "slug": "home-2nd-haus",
+  "source_url": "https://www.albero.ph/home-2nd-haus",
+  "final_url": "https://www.albero.ph/home-2nd-haus",
+  "redirected": false,
+  "title": "WELCOME. — ALBERO",
+  "og_title": "WELCOME. — ALBERO",
+  "meta_description": "Albero creates thoughtfully crafted custom furniture inspired by the way people live. Discover our products and services today –",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "image-classic",
+          "image": "/images/home-2nd-haus/2NDHAUS-74810-EDIT.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/home-2nd-haus/2.png",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "video",
+          "url": null,
+          "title": null,
+          "provider": null,
+          "description": null,
+          "thumbnail": null
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/home-2nd-haus/3.png",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "You are greeted by a gentle breeze and the scent of freshly picked flowers as you check in."
+            },
+            {
+              "tag": "p",
+              "text": "Many dream of hotels as a home. For this collection, Albero presents an escape that still feels like home."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Inspired by a boutique stay, it offers a glimpse of what it might be like if Albero had its own hotel"
+            },
+            {
+              "tag": "p",
+              "text": ":a space that makes you look forward to coming over, yet feels lived in, as if you’ve always owned it."
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "DISCOVER 2ND HAUS",
+          "href": "/2ndhaus-collection"
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/home-2nd-haus/2NDHAUS-75426-EDIT.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home-2nd-haus/2NDHAUS-75036-EDIT.jpg",
+              "link": null
+            },
+            {
+              "title": null,
+              "description": null,
+              "image": "/images/home-2nd-haus/2NDHAUS-75100-EDIT.jpg",
+              "link": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "products": [],
+  "images": [
+    {
+      "file": "2NDHAUS-74810-EDIT.jpg",
+      "path": "/images/home-2nd-haus/2NDHAUS-74810-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/cbae82e5-2f0f-4963-a2ff-4f446b59beaa/2NDHAUS-74810-EDIT.jpg",
+      "alt": null,
+      "original_width": 6048,
+      "original_height": 4032,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 1667,
+      "bytes": 291576
+    },
+    {
+      "file": "2.png",
+      "path": "/images/home-2nd-haus/2.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/a98cce4f-66be-4988-a212-f4ba1faf7814/2.png",
+      "alt": null,
+      "original_width": 2880,
+      "original_height": 900,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 781,
+      "bytes": 28366
+    },
+    {
+      "file": "3.png",
+      "path": "/images/home-2nd-haus/3.png",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/a403075f-98bc-454c-9068-9c974df979d0/3.png",
+      "alt": null,
+      "original_width": 2880,
+      "original_height": 900,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 781,
+      "bytes": 28566
+    },
+    {
+      "file": "2NDHAUS-75426-EDIT.jpg",
+      "path": "/images/home-2nd-haus/2NDHAUS-75426-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/b939215a-0024-4287-a859-a9b9d5a02f5c/2NDHAUS-75426-EDIT.jpg",
+      "alt": null,
+      "original_width": 4032,
+      "original_height": 6048,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 605774
+    },
+    {
+      "file": "2NDHAUS-75036-EDIT.jpg",
+      "path": "/images/home-2nd-haus/2NDHAUS-75036-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772356640647-WZX9FZ34CBRP4FEBMUUO/2NDHAUS-75036-EDIT.jpg",
+      "alt": "2NDHAUS-75036-EDIT.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 595146
+    },
+    {
+      "file": "2NDHAUS-75100-EDIT.jpg",
+      "path": "/images/home-2nd-haus/2NDHAUS-75100-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1772356643405-GA5Y33AJ4M0E3MYI3FDQ/2NDHAUS-75100-EDIT.jpg",
+      "alt": "2NDHAUS-75100-EDIT.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2500,
+      "height": 3750,
+      "bytes": 370308
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "slug": "origin-collection",
+  "source_url": "https://www.albero.ph/origin-collection",
+  "final_url": "https://www.albero.ph/origin-collection",
+  "redirected": false,
+  "title": "Origin Collection — ALBERO",
+  "og_title": "Origin Collection — ALBERO",
+  "meta_description": "",
+  "sections": [
+    {
+      "id": "section-1",
+      "background_image": null,
+      "blocks": [
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "h1",
+              "text": "ORIGIN"
+            },
+            {
+              "tag": "h2",
+              "text": "2023 Collection"
+            },
+            {
+              "tag": "p",
+              "text": "Introducing a bold and authentic furniture collection that captures the essence of raw beauty. Each piece in this organic collection is a unique representation of the Albero’s identity, redefined to reflect its natural character and artistic flair."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/origin-collection/ORIGIN-52-6138-EDIT.jpg",
+          "alt": "",
+          "caption": "",
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "From the warm glow of the polished wood to the earthy richness of the textured surfaces, this collection invites you to reconnect with nature and embrace the beauty of the raw and organic. With a focus on redefining the brand’s style and character, this collection is a testament to the power of natural beauty and authentic design."
+            },
+            {
+              "tag": "p",
+              "text": "View the collection film here:"
+            }
+          ]
+        },
+        {
+          "type": "video",
+          "url": "https://www.youtube.com/embed/oLFnHFbife0?feature=oembed",
+          "title": "ORIGIN Collection | ALBERO",
+          "provider": "YouTube",
+          "description": null,
+          "thumbnail": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "Presenting Origin –"
+            }
+          ]
+        },
+        {
+          "type": "gallery",
+          "slides": [
+            {
+              "title": "Alva Accent Chair",
+              "description": null,
+              "image": "/images/origin-collection/Accent_02.jpg",
+              "link": null
+            },
+            {
+              "title": "Marcel Chair",
+              "description": null,
+              "image": "/images/origin-collection/DiningChairA_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Noah Chair",
+              "description": null,
+              "image": "/images/origin-collection/DiningChairB_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Pebble Sideboard",
+              "description": null,
+              "image": "/images/origin-collection/ConsoleStone_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Leandro Sideboard",
+              "description": null,
+              "image": "/images/origin-collection/ConsoleBlack_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Prose Console Table",
+              "description": null,
+              "image": "/images/origin-collection/ConsoleCurve_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Enso Coffee Table",
+              "description": null,
+              "image": "/images/origin-collection/CoffeeTable_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Totem Side Table",
+              "description": null,
+              "image": "/images/origin-collection/SideTable_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Miles Desk",
+              "description": null,
+              "image": "/images/origin-collection/Desk_02.jpg",
+              "link": null
+            },
+            {
+              "title": "Abode Chair",
+              "description": null,
+              "image": "/images/origin-collection/DeskChair_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Cameron Bench",
+              "description": null,
+              "image": "/images/origin-collection/Footbench_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Sora Night Table",
+              "description": null,
+              "image": "/images/origin-collection/NightTable_02.jpg",
+              "link": null
+            },
+            {
+              "title": "Namu Shelf",
+              "description": null,
+              "image": "/images/origin-collection/DisplayShelf_01.jpg",
+              "link": null
+            },
+            {
+              "title": "Namu Shelf (With Lower Storage)",
+              "description": null,
+              "image": "/images/origin-collection/DisplayShelf_03.jpg",
+              "link": null
+            },
+            {
+              "title": "",
+              "description": null,
+              "image": "/images/origin-collection/DisplayShelf_04.jpg",
+              "link": null
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "The collection's organic forms are inspired by the furniture-making process and the forms found in a workshop. Each piece is crafted with care and attention to detail, with every knot and imperfection in the wood adding to the beauty and authenticity of the design."
+            }
+          ]
+        },
+        {
+          "type": "image-classic",
+          "image": "/images/origin-collection/Lotus-Bed.jpg",
+          "alt": "",
+          "caption": null,
+          "link": null
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "The Lotus Bed. An Albero Original."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "items": [
+            {
+              "tag": "p",
+              "text": "See the full collection here:"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "text": "REQUEST FOR A CATALOG",
+          "href": "https://albero.ph/message"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "source": "collection gallery",
+      "name": "Alva Accent Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/Accent_02.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Marcel Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/DiningChairA_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Noah Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/DiningChairB_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Pebble Sideboard",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/ConsoleStone_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Leandro Sideboard",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/ConsoleBlack_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Prose Console Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/ConsoleCurve_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Enso Coffee Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/CoffeeTable_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Totem Side Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/SideTable_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Miles Desk",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/Desk_02.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Abode Chair",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/DeskChair_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Cameron Bench",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/Footbench_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Sora Night Table",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/NightTable_02.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Namu Shelf",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/DisplayShelf_01.jpg"
+      ],
+      "link": null
+    },
+    {
+      "source": "collection gallery",
+      "name": "Namu Shelf (With Lower Storage)",
+      "description": null,
+      "price": null,
+      "dimensions": null,
+      "materials_as_stated": null,
+      "images": [
+        "/images/origin-collection/DisplayShelf_03.jpg"
+      ],
+      "link": null
+    }
+  ],
+  "images": [
+    {
+      "file": "ORIGIN-52-6138-EDIT.jpg",
+      "path": "/images/origin-collection/ORIGIN-52-6138-EDIT.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/4e6681fe-2d60-488f-a8da-c06610528e8d/ORIGIN-52-6138-EDIT.jpg",
+      "alt": null,
+      "original_width": 5290,
+      "original_height": 5290,
+      "context": "section-1 image block",
+      "width": 2500,
+      "height": 2500,
+      "bytes": 1053012
+    },
+    {
+      "file": "Accent_02.jpg",
+      "path": "/images/origin-collection/Accent_02.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024640957-O1TBATBL1BO164HTAOOR/Accent_02.jpg",
+      "alt": "Alva Accent Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 261754
+    },
+    {
+      "file": "DiningChairA_01.jpg",
+      "path": "/images/origin-collection/DiningChairA_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024704494-MZTVUQIVZO7EO826D3AT/DiningChairA_01.jpg",
+      "alt": "Marcel Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 365866
+    },
+    {
+      "file": "DiningChairB_01.jpg",
+      "path": "/images/origin-collection/DiningChairB_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024704495-90UJKF7ZF7FYZNE9U4S4/DiningChairB_01.jpg",
+      "alt": "Noah Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 328744
+    },
+    {
+      "file": "ConsoleStone_01.jpg",
+      "path": "/images/origin-collection/ConsoleStone_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024683456-FKDH2PN0ZYVPDXKF6Q6J/ConsoleStone_01.jpg",
+      "alt": "Pebble Sideboard",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 433826
+    },
+    {
+      "file": "ConsoleBlack_01.jpg",
+      "path": "/images/origin-collection/ConsoleBlack_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024662305-0GHGHNJ0WIIPNRXO4B4G/ConsoleBlack_01.jpg",
+      "alt": "Leandro Sideboard",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 410718
+    },
+    {
+      "file": "ConsoleCurve_01.jpg",
+      "path": "/images/origin-collection/ConsoleCurve_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024664270-WF0ZR0RQ26SEQXGH05W4/ConsoleCurve_01.jpg",
+      "alt": "Prose Console Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 355140
+    },
+    {
+      "file": "CoffeeTable_01.jpg",
+      "path": "/images/origin-collection/CoffeeTable_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024641403-CCTN9U712GN6IPMGT37H/CoffeeTable_01.jpg",
+      "alt": "Enso Coffee Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 298442
+    },
+    {
+      "file": "SideTable_01.jpg",
+      "path": "/images/origin-collection/SideTable_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024781879-C76V3VYQ8ZJ8FGGFIWQE/SideTable_01.jpg",
+      "alt": "Totem Side Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 315566
+    },
+    {
+      "file": "Desk_02.jpg",
+      "path": "/images/origin-collection/Desk_02.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024683729-7M61MOGB0RU9UADADZKY/Desk_02.jpg",
+      "alt": "Miles Desk",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 323002
+    },
+    {
+      "file": "DeskChair_01.jpg",
+      "path": "/images/origin-collection/DeskChair_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681026557218-XJ9AQIVSR0Z2V9NSYS6R/DeskChair_01.jpg",
+      "alt": "Abode Chair",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 292880
+    },
+    {
+      "file": "Footbench_01.jpg",
+      "path": "/images/origin-collection/Footbench_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024761545-V42C2CJKITT24EEG1A7U/Footbench_01.jpg",
+      "alt": "Cameron Bench",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 352036
+    },
+    {
+      "file": "NightTable_02.jpg",
+      "path": "/images/origin-collection/NightTable_02.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024780547-JZ6Y75K25T814A4LB77G/NightTable_02.jpg",
+      "alt": "Sora Night Table",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 348084
+    },
+    {
+      "file": "DisplayShelf_01.jpg",
+      "path": "/images/origin-collection/DisplayShelf_01.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681024762299-D11611Y9QTIWWAL3IPWE/DisplayShelf_01.jpg",
+      "alt": "Namu Shelf",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 376898
+    },
+    {
+      "file": "DisplayShelf_03.jpg",
+      "path": "/images/origin-collection/DisplayShelf_03.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681027626336-KLI08O9SYF38BFDAM9GU/DisplayShelf_03.jpg",
+      "alt": "Namu Shelf (With Lower Storage)",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 482804
+    },
+    {
+      "file": "DisplayShelf_04.jpg",
+      "path": "/images/origin-collection/DisplayShelf_04.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/1681027482188-0BRX1Z3GO5F2ERTUWIFG/DisplayShelf_04.jpg",
+      "alt": "DisplayShelf_04.jpg",
+      "original_width": null,
+      "original_height": null,
+      "context": "section-1 gallery",
+      "width": 2400,
+      "height": 3000,
+      "bytes": 789400
+    },
+    {
+      "file": "Lotus-Bed.jpg",
+      "path": "/images/origin-collection/Lotus-Bed.jpg",
+      "src": "https://images.squarespace-cdn.com/content/v1/5a65c2b329f1878453118c2c/c6aec063-2b42-4ca3-b308-657c1c3b06e8/Lotus+Bed",
+      "alt": null,
+      "original_width": 1702,
+      "original_height": 1186,
+      "context": "section-1 image block",
+      "width": 1702,
+      "height": 1186,
+      "bytes": 139600
+    }
+  ]
+}
