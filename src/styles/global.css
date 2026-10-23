@@ -18,6 +18,8 @@
 
 :root {
   --header-h: 60px;
+  /* Strong ease-out for UI entrances (animate skill table). */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 @media (min-width: 768px) {
@@ -29,6 +31,12 @@
 @layer base {
   html {
     scroll-padding-top: var(--header-h);
+    /* Below md the fixed Book Your Visit bar (56px) covers the bottom of the viewport. */
+    scroll-padding-bottom: 4.5rem;
+
+    @media (min-width: 768px) {
+      scroll-padding-bottom: 0;
+    }
   }
 
   body {

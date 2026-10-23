@@ -1,8 +1,9 @@
 ---
-// Pinned ~300vh hero. For now the sticky stage holds the static Albero photo
-// and both overlays are visible (the same state prefers-reduced-motion will
-// get). The scroll-scrubbed frames and overlay timing come later (CLAUDE.md,
-// "Hero scroll animation"); the data-hero-* hooks are for that step.
+// Pinned 300vh hero (CLAUDE.md "Hero scroll animation", Step C): scrolling
+// scrubs the camera move through public/hero/frames on a sticky canvas, the
+// headline fades out by 40% and the Cere block fades in from 60%.
+// Without JS or with prefers-reduced-motion: a static 100svh stage with the
+// photo and both overlays visible, no pin.
 import Photo from './Photo.astro';
 import { button, firstSentence, pages, quote } from './lib/content';
 
@@ -12,8 +13,9 @@ const cereLine = quote(pages.cere, 'A collection of individual pieces');
 const discoverCere = button(pages.home, 'DISCOVER CERE');
 ---
 
-<section id="hero" class="relative h-[300vh]" data-hero>
+<section id="hero" class="relative" data-hero>
   <div class="sticky overflow-hidden" style="top: var(--header-h); height: calc(100svh - var(--header-h))" data-hero-stage>
+    <!-- The sharp photo stays the poster/LCP image; the softer video frames only take over once scrolling starts. -->
     <Photo
       src="/images/cere-collection/ABR_0067.jpg"
       alt="A Cere Collection living room: tan sofa, dark coffee table with a stone top, and a burl wood cabinet with arched glass doors"
@@ -21,9 +23,10 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
       loading="eager"
       fetchpriority="high"
     />
+    <canvas class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-200 ease-(--ease-out)" aria-hidden="true" data-hero-canvas></canvas>
 
     <!-- Scrims sit behind the text only: full-width on mobile, where the text spans the screen; from md they fade out
-         to the right and at the inner edge so the room stays clear. Each lives inside its overlay so it will fade with it. -->
+         to the right and at the inner edge so the room stays clear. Each lives inside its overlay so it fades with it. -->
     <div class="absolute inset-x-0 top-0 isolate pt-[7vh] pb-24 md:pt-[9vh] md:pb-40" data-hero-headline>
       <div
         class="absolute inset-0 -z-10 bg-linear-to-b from-paper/90 via-paper/85 via-70% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_bottom,black_calc(100%_-_10rem),transparent)]"
@@ -35,9 +38,10 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
       </div>
     </div>
 
-    <div class="absolute inset-x-0 bottom-0 isolate pt-40 pb-[7vh] md:pt-8" data-hero-cta>
+    <!-- --cta-fade: a short fade when both overlays share the screen (static/reduced motion), a long one when scrubbing. -->
+    <div class="absolute inset-x-0 bottom-0 isolate pt-40 pb-[7vh] md:pt-(--cta-fade)" data-hero-cta>
       <div
-        class="absolute inset-0 -z-10 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_top,black_calc(100%_-_2rem),transparent)]"
+        class="absolute inset-0 -z-10 bg-linear-to-t from-espresso/85 via-espresso/75 via-60% to-transparent md:bg-linear-to-r md:via-[36rem] md:to-[56rem] md:[mask-image:linear-gradient(to_top,black_calc(100%_-_var(--cta-fade)),transparent)]"
         aria-hidden="true"
       ></div>
       <div class="container-page text-paper">
@@ -57,3 +61,148 @@ const discoverCere = button(pages.home, 'DISCOVER CERE');
     </div>
   </div>
 </section>
+
+<style>
+  [data-hero] {
+    height: calc(100svh - var(--header-h));
+  }
+
+  [data-hero-cta] {
+    --cta-fade: 2rem;
+  }
+
+  /* Scrubbing only with JS and without reduced motion; the CTA starts hidden here so it doesn't flash before the script runs. */
+  @media (scripting: enabled) and (prefers-reduced-motion: no-preference) {
+    [data-hero] {
+      height: 300vh;
+    }
+
+    [data-hero-cta] {
+      --cta-fade: 10rem;
+      opacity: 0;
+    }
+  }
+</style>
+
+<script>
+  const FRAME_COUNT = { desktop: 97, mobile: 61 } as const;
+  const LERP = 0.2;
+
+  const section = document.querySelector<HTMLElement>('[data-hero]');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)');
+
+  if (section && !reduce.matches) {
+    const stage = section.querySelector<HTMLElement>('[data-hero-stage]')!;
+    const canvas = section.querySelector<HTMLCanvasElement>('[data-hero-canvas]')!;
+    const headline = section.querySelector<HTMLElement>('[data-hero-headline]')!;
+    const cta = section.querySelector<HTMLElement>('[data-hero-cta]')!;
+    const ctx = canvas.getContext('2d')!;
+    const wide = matchMedia('(min-width: 768px)');
+
+    let frames: HTMLImageElement[] = [];
+    let current = 0;
+    let drawn = -1;
+    let raf = 0;
+
+    const clamp = (v: number) => Math.min(1, Math.max(0, v));
+
+    const range = () => section.offsetHeight - stage.offsetHeight;
+    const progress = () => clamp((parseFloat(getComputedStyle(stage).top) - section.getBoundingClientRect().top) / range());
+
+    const loadFrames = () => {
+      const kind = wide.matches ? 'desktop' : 'mobile';
+      const src = (i: number) => `/hero/frames/${kind}/frame_${String(i + 1).padStart(3, '0')}.webp`;
+      frames = Array.from({ length: FRAME_COUNT[kind] }, () => new Image());
+      drawn = -1;
+      const load = (i: number) => {
+        frames[i].decoding = 'async';
+        frames[i].onload = () => {
+          if (Math.round(current) === i || drawn === -1) kick();
+        };
+        frames[i].src = src(i);
+      };
+      load(0); // the first frame immediately; the rest once the page has loaded
+      const rest = () => frames.forEach((_, i) => i && load(i));
+      document.readyState === 'complete' ? rest() : addEventListener('load', rest, { once: true });
+    };
+
+    const sizeCanvas = () => {
+      const dpr = Math.min(devicePixelRatio || 1, 2);
+      canvas.width = Math.round(stage.clientWidth * dpr);
+      canvas.height = Math.round(stage.clientHeight * dpr);
+      drawn = -1;
+    };
+
+    // Draw frame i (or the nearest loaded one) like object-fit: cover.
+    const draw = (i: number) => {
+      let img: HTMLImageElement | undefined;
+      for (let d = 0; d < frames.length && !img; d++) {
+        img = [frames[i - d], frames[i + d]].find((f) => f?.complete && f.naturalWidth);
+      }
+      if (!img) return false;
+      const scale = Math.max(canvas.width / img.naturalWidth, canvas.height / img.naturalHeight);
+      const w = img.naturalWidth * scale;
+      const h = img.naturalHeight * scale;
+      ctx.drawImage(img, (canvas.width - w) / 2, (canvas.height - h) / 2, w, h);
+      drawn = img === frames[i] ? i : -1;
+      return true;
+    };
+
+    // Opacity + a 12px drift only. Headline: visible to 30%, gone by 40%. Cere block: in from 60%, full by 75%, held to the end.
+    const setOverlays = (p: number) => {
+      const out = clamp((p - 0.3) / 0.1);
+      const into = clamp((p - 0.6) / 0.15);
+      headline.style.opacity = String(1 - out);
+      headline.style.transform = `translateY(${-12 * out}px)`;
+      headline.style.pointerEvents = out > 0.5 ? 'none' : '';
+      cta.style.opacity = String(into);
+      cta.style.transform = `translateY(${12 * (1 - into)}px)`;
+      cta.style.pointerEvents = into < 0.5 ? 'none' : '';
+    };
+
+    const tick = () => {
+      raf = 0;
+      const p = progress();
+      const target = p * (frames.length - 1);
+      current += (target - current) * LERP;
+      if (Math.abs(target - current) < 0.01) current = target;
+      const i = Math.round(current);
+      const shown = i === drawn || draw(i);
+      canvas.style.opacity = shown && p > 0.001 ? '1' : '0';
+      setOverlays(p);
+      if (current !== target) raf = requestAnimationFrame(tick); // a frame still loading restarts this from its onload
+    };
+
+    function kick() {
+      if (!raf) raf = requestAnimationFrame(tick);
+    }
+
+    loadFrames();
+    sizeCanvas();
+    kick();
+    addEventListener('scroll', kick, { passive: true });
+    new ResizeObserver(() => {
+      sizeCanvas();
+      kick();
+    }).observe(stage);
+    wide.addEventListener('change', () => {
+      loadFrames();
+      kick();
+    });
+
+    // A keyboard user tabbing onto the hidden Cere link: scroll to where it is shown instead of focusing something invisible.
+    cta.addEventListener('focusin', () => {
+      if (progress() >= 0.75) return;
+      const top = scrollY + section.getBoundingClientRect().top - parseFloat(getComputedStyle(stage).top);
+      scrollTo({ top: top + range() * 0.8, behavior: 'instant' });
+    });
+
+    // Switching reduced motion on mid-visit: drop the scrub (CSS already restores the static stage).
+    reduce.addEventListener('change', () => {
+      removeEventListener('scroll', kick);
+      cancelAnimationFrame(raf);
+      canvas.style.opacity = '0';
+      for (const el of [headline, cta]) el.removeAttribute('style');
+    });
+  }
+</script>

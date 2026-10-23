@@ -1,11 +1,13 @@
 ---
+import Photo from './Photo.astro';
 import { bookVisit, primaryNav, wordmark } from './lib/content';
 ---
 
 <header class="sticky top-0 z-50 border-b border-line bg-paper" style="height: var(--header-h)">
   <div class="container-page flex h-full items-center justify-between">
-    <a href="/" class="font-display text-[22px] leading-none tracking-[0.3em] md:text-[24px]" aria-label={`${wordmark}, home`}>
-      {wordmark}
+    <a href="/" class="flex min-h-[44px] items-center" aria-label={`${wordmark}, home`}>
+      <!-- Albero's own wordmark, from the albero.ph header. -->
+      <Photo src="/images/site/albero-wordmark.png" alt="" class="h-4 w-auto md:h-[18px]" loading="eager" sizes="140px" />
     </a>
 
     <div class="flex items-center gap-4 lg:gap-12">
@@ -75,6 +77,11 @@ import { bookVisit, primaryNav, wordmark } from './lib/content';
         setOpen(false);
         toggle.focus();
       }
+    });
+    // Tabbing out of the open menu left it covering the page; close it when focus moves elsewhere (not to the toggle).
+    menu.addEventListener('focusout', (e) => {
+      const next = e.relatedTarget as Node | null;
+      if (next && next !== toggle && !menu.contains(next)) setOpen(false);
     });
   }
 </script>
